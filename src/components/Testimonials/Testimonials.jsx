@@ -2,10 +2,10 @@ import React, { useRef } from 'react'
 import "./Testimonials.css"
 import next_icon from "../../assets/next-icon.png"
 import back_icon from"../../assets/back-icon.png"
-import user_1 from "../../assets/user-1.png"
-import user_2 from "../../assets/user-2.png"
-import user_3 from "../../assets/bthadd.png"
-import user_4 from "../../assets/user-4.png"
+import user_1 from "../../assets/fol.jpg"
+import user_2 from "../../assets/bthadd.png"
+import user_3 from "../../assets/funke.jpg"
+import user_4 from "../../assets/vgd.png"
 import white_arrow from "../../assets/white-arrow.png"
 
 const Testimonials = () => {
@@ -61,11 +61,12 @@ const Testimonials = () => {
                     <div className="user-info">
                         <img src={user_3} alt="" />
                         <div>
-                            <h3>Rachael Ogunfodunrin</h3>
+                            <h3>Olufunke Hezekiah</h3>
                             <span>Ogun, Nigeria</span>
                         </div>
                     </div>
-                    <p>We learnt about dispensing the gifts of the Spirit in the Purpose Academy. While on an errand for my mom one day, I met a lady and the Holy Spirit instructed me to speak to her. I did and after the conversation, I prayed for her. She got home and discovered that a pain in her left hand had been healed. She came out to search for me but did not find me until after some days where she met me in the area and told what had happened.</p>
+                    <p>I am grateful for the process that God took me through in the purpose academy. God has done a great work in me.
+                    At the inception of the Pre-Purpose Academy, I felt I did not need it since I had been in School of Purpose for a while but on starting the classes, I found out that it entailed so much more than I thought.</p>
                 </div>
             </li>
             <li>
@@ -92,7 +93,7 @@ const Testimonials = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="btn">Read More <img src={white_arrow} alt="" /> </button>
+          <button className="btn testimony-btn">Read More <img src={white_arrow} alt="" /> </button>
         </a>
     </div>
   )
