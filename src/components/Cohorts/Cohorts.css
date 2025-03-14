@@ -1,16 +1,19 @@
-.cohorts{
+.cohorts {
     margin: 80px auto;
     width: 90%;
     text-align: center;
 }
-.gallery{
+
+.gallery {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap; /* Allows images to wrap to new lines */
     margin-bottom: 40px;
 }
+
 .gallery img {
-    width: 23%;
+    width: 23%; /* Default: 4 images per row on large screens */
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(4, 4, 4, 0.614); /* Adjust shadow as needed */
     transition: transform 0.5s ease, box-shadow 0.5s ease, filter 0.5s ease;
@@ -22,14 +25,27 @@
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.7); /* Adds a deeper shadow */
     filter: brightness(1.1); /* Slightly increases brightness */
 }
-/* media query */
-@media (max-width:800px) {
-    .gallery{
-        flex-wrap: wrap;
 
+/* Responsive Design */
+
+/* 2 images per row on tablets (iPads) */
+@media (max-width: 1024px) {
+    .gallery{
+        margin-bottom: 40px;
+        gap: 20px;
     }
-    .gallery img{
-        width: 48%;
-        margin-bottom: 25px
+    .gallery img {
+        width: 45%; 
+    }
+}
+
+/* 1 image per row on small screens (mobile phones) */
+@media (max-width: 600px) {
+    .gallery{
+        /* margin-bottom: 60px; */
+        gap: 40px;
+    }
+    .gallery img {
+        width: 100%; /* Full width (one per row) */
     }
 }
