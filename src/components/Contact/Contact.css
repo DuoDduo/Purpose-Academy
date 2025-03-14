@@ -5,11 +5,13 @@
     align-items: center;
     padding: 60px 20px;
     background: #f7f7f7;
+    width: 100%; /* Ensure full width */
+    min-height: 100vh; /* Cover full screen height */
 }
 
 /* Contact Box */
 .contact-box {
-    width: 90%;
+    width: 100%; /* Full width */
     max-width: 1000px;
     display: flex;
     flex-wrap: wrap;
@@ -18,6 +20,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 40px;
+    box-sizing: border-box; /* Prevents overflow */
 }
 
 /* Contact Info Section */
@@ -26,49 +29,19 @@
     min-width: 300px;
 }
 
-.contact-info h3 {
-    color: #ff0000;
-    font-size: 24px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-}
-
-.contact-info h3 img {
-    width: 30px;
-    margin-left: 10px;
-}
-
-.contact-info p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-top: 10px;
-    color: #555;
-}
-
+/* Ensure email text wraps properly */
 .contact-info ul {
     list-style: none;
     padding: 0;
     margin-top: 20px;
-}
-
-.contact-info ul li {
-    display: flex;
-    align-items: center;
-    font-size: 16px;
-    margin: 10px 0;
-    color: #333;
-}
-
-.contact-info ul li img {
-    width: 30px;
-    margin-right: 10px;
+    word-break: break-word; /* Ensures long text breaks */
 }
 
 /* Contact Form Section */
 .contact-form {
     flex: 1;
     min-width: 300px;
+    width: 100%; /* Ensures it takes full space */
 }
 
 .contact-form form {
@@ -76,12 +49,7 @@
     flex-direction: column;
 }
 
-.contact-form label {
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
+/* Fix form inputs stretching outside */
 .contact-form input,
 .contact-form textarea {
     width: 100%;
@@ -91,52 +59,65 @@
     border-radius: 8px;
     font-size: 14px;
     transition: 0.3s;
+    box-sizing: border-box; /* Prevents overflow */
+}
+/* Contact Info Icons */
+.contact-info ul li img {
+    width: 25px;  /* Adjust size */
+    height: auto;
+    margin-right: 10px;
 }
 
-.contact-form input:focus,
-.contact-form textarea:focus {
-    border-color: #ff0000;
-    outline: none;
+/* Fix images inside the contact form */
+.contact-info h3 img {
+    width: 30px;
+    height: auto;
+    margin-left: 10px;
 }
 
-/* Submit Button */
-.contact-btn {
-    background: #ff0000;
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 12px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    transition: background 0.3s ease-in-out;
-}
-
-.contact-btn img {
+/* Ensure any images inside the form are properly aligned */
+.contact-form img {
     width: 18px;
+    height: auto;
 }
 
-.contact-btn:hover {
-    background: #ff0000;
+/* Ensure images are responsive */
+.contact-image img {
+    width: 100%;
+    max-width: 300px; /* Adjust to fit design */
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto; /* Center image */
 }
 
-/* Responsive Design */
+/* Responsive Fix */
+@media (max-width: 768px) {
+    .contact-info ul li img {
+        width: 20px; /* Reduce size for small screens */
+    }
+
+    .contact-image img {
+        max-width: 100%; /* Full width on small screens */
+    }
+}
+
+
+/* Responsive Fixes */
 @media (max-width: 768px) {
     .contact-box {
         flex-direction: column;
-        /* padding: 20px; */
-        padding: 40px;
+        padding: 20px;
+        width: 100%;
     }
-    /* .contact-container{
-        padding: 60px 20px;
-    } */
 
     .contact-info, 
     .contact-form {
         width: 100%;
+        text-align: center;
+    }
+
+    .contact-btn {
+        width: 100%; /* Make button full width */
     }
 }

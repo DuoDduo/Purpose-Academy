@@ -75,3 +75,19 @@
         text-align: center;
     }
 }
+/* Responsive */
+@media (max-width: 768px) {
+    .about-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-card.reverse {
+        flex-direction: column;
+    }
+
+    .about-image img {
+        max-width: 100%;
+    }
+}
+ 
