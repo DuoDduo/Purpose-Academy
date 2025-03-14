@@ -51,8 +51,8 @@ const Contact = () => {
             <label>Name</label>
             <input type="text" name="name" placeholder="Enter your name" required />
             
-            <label>Phone Number</label>
-            <input type="tel" name="phone" placeholder="Enter your contact details" required />
+            <label>Email Address</label>
+            <input type="email" name="email" placeholder="Enter your email address" required />
             
             <label>Enquiry</label>
             <textarea name="message" rows="6" placeholder="Enter your message" required></textarea>
