@@ -128,8 +128,12 @@
 @media (max-width: 768px) {
     .contact-box {
         flex-direction: column;
-        padding: 20px;
+        /* padding: 20px; */
+        padding: 40px;
     }
+    /* .contact-container{
+        padding: 60px 20px;
+    } */
 
     .contact-info, 
     .contact-form {

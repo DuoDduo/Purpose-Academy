@@ -108,6 +108,10 @@
     .footer-sections {
         flex-direction: column;
         text-align: center;
+        gap: 10px;
+    }
+    .footer-section {
+        flex: 1 1 180px;
     }
 
     .footer-social {

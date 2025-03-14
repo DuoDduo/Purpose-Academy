@@ -6,6 +6,7 @@ import user_1 from "../../assets/user-1.png"
 import user_2 from "../../assets/user-2.png"
 import user_3 from "../../assets/bthadd.png"
 import user_4 from "../../assets/user-4.png"
+import white_arrow from "../../assets/white-arrow.png"
 
 const Testimonials = () => {
     const slider = useRef();
@@ -25,7 +26,8 @@ const Testimonials = () => {
 
   return (
     <div className='testimonials'>
-        <img src={next_icon} alt="" className='next-btn'onClick={slideForward} />
+       <div>
+       <img src={next_icon} alt="" className='next-btn'onClick={slideForward} />
         <img src={back_icon} alt="" className='back-btn'onClick={slideBackward} />
         <div className="slider">
             <ul ref={slider}>
@@ -82,6 +84,16 @@ const Testimonials = () => {
             </ul>
 
         </div>
+        <div>
+       </div>
+       
+      </div>
+      <a href="https://www.instagram.com/p/CwqYQ9zAXgP/?igsh=MXlvNDUxcGJwbHhw"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="btn">Read More <img src={white_arrow} alt="" style={{margin:"20px auto"}} /> </button>
+        </a>
     </div>
   )
 }
