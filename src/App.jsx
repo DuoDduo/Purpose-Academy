@@ -26,11 +26,12 @@ const App = () => {
 
       <Visionnaire></Visionnaire>
      
-      <About></About>
+      
       <Title subTitle="Vision, Mission, Goals" title="Statement"></Title> 
       <Mission></Mission>
       <Title subTitle="Cohort Showcase" title="How Far We've Come"></Title>
       <Cohorts></Cohorts>
+      <About></About>
       
       <Title subTitle="TESTIMONIALS" title="What Student Says"></Title>
       <Testimonials></Testimonials>
