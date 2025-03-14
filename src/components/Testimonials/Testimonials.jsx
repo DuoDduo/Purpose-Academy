@@ -92,7 +92,7 @@ const Testimonials = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="btn">Read More <img src={white_arrow} alt="" style={{margin:"20px auto"}} /> </button>
+          <button className="btn">Read More <img src={white_arrow} alt="" /> </button>
         </a>
     </div>
   )
