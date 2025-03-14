@@ -6,7 +6,7 @@
     padding: 60px 20px;
     background: #f7f7f7;
     width: 100%; /* Ensure full width */
-    min-height: 100vh; /* Cover full screen height */
+    /* min-height: 100vh;  */
 }
 
 /* Contact Box */
@@ -61,9 +61,29 @@
     transition: 0.3s;
     box-sizing: border-box; /* Prevents overflow */
 }
+.contact-info h3 {
+    color: #ff0000;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-info h3 img {
+    width: 30px;
+    margin-left: 10px;
+}
+.contact-info ul li {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin: 10px 0;
+    color: #333;
+}
 /* Contact Info Icons */
 .contact-info ul li img {
-    width: 25px;  /* Adjust size */
+    width: 30px;  /* Adjust size */
     height: auto;
     margin-right: 10px;
 }
@@ -114,7 +134,7 @@
     .contact-info, 
     .contact-form {
         width: 100%;
-        text-align: center;
+        /* text-align: center; */
     }
 
     .contact-btn {
