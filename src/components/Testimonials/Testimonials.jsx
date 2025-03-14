@@ -4,7 +4,7 @@ import next_icon from "../../assets/next-icon.png"
 import back_icon from"../../assets/back-icon.png"
 import user_1 from "../../assets/user-1.png"
 import user_2 from "../../assets/user-2.png"
-import user_3 from "../../assets/user-3.png"
+import user_3 from "../../assets/bthadd.png"
 import user_4 from "../../assets/user-4.png"
 
 const Testimonials = () => {
@@ -34,11 +34,12 @@ const Testimonials = () => {
                     <div className="user-info">
                         <img src={user_1} alt="" />
                         <div>
-                            <h3>William Jackson</h3>
-                            <span>Edusity, USA</span>
+                            <h3>Folashade Steve-Bodunde</h3>
+                            <span>Lagos Nigeria</span>
                         </div>
                     </div>
-                    <p>Attending the purpose academy is my greatest achievement so far</p>
+                    <p>The teachings from the Pre-Purpose Academy have helped me to better understand my purpose. I learnt to set goals and work with timelines and this has made me more effective.
+                    During the evangelism exercises, I was able to effectively use the gifts of the Spirit as taught by Pastor (Mrs.) Funmilola Omobowoje. Additionally, my grammatical constructions have improved and I have also gained clarity on my mission and the people I am sent to.</p>
                 </div>
             </li>
             <li>
@@ -46,11 +47,11 @@ const Testimonials = () => {
                     <div className="user-info">
                         <img src={user_2} alt="" />
                         <div>
-                            <h3>William Jackson</h3>
-                            <span>Edusity, USA</span>
+                            <h3>Blessing Thaddeaus</h3>
+                            <span>Lagos, Nigeria</span>
                         </div>
                     </div>
-                    <p>Attending the purpose academy is my greatest achievement so far</p>
+                    <p>I am grateful to God for clarity I have received while engaging the materials in the Purpose Academy. I used to have a problem with goal-setting. By reason of the academy, I have seen an obvious improvement on this. I am now able to set and meet up with my goals. I was recommended for a job and it required me to complete a task in a limited time. By applying what I learnt in the academy, I was able to compete the task and I got the job.</p>
                 </div>
             </li>
             <li>
@@ -58,11 +59,11 @@ const Testimonials = () => {
                     <div className="user-info">
                         <img src={user_3} alt="" />
                         <div>
-                            <h3>William Jackson</h3>
-                            <span>Edusity, USA</span>
+                            <h3>Rachael Ogunfodunrin</h3>
+                            <span>Ogun, Nigeria</span>
                         </div>
                     </div>
-                    <p>Attending the purpose academy is my greatest achievement so far</p>
+                    <p>We learnt about dispensing the gifts of the Spirit in the Purpose Academy. While on an errand for my mom one day, I met a lady and the Holy Spirit instructed me to speak to her. I did and after the conversation, I prayed for her. She got home and discovered that a pain in her left hand had been healed. She came out to search for me but did not find me until after some days where she met me in the area and told what had happened.</p>
                 </div>
             </li>
             <li>
@@ -70,11 +71,12 @@ const Testimonials = () => {
                     <div className="user-info">
                         <img src={user_4} alt="" />
                         <div>
-                            <h3>William Jackson</h3>
-                            <span>Edusity, USA</span>
+                            <h3>Victoria Odeleye</h3>
+                            <span>Ibadan, Nigeria</span>
                         </div>
                     </div>
-                    <p>Attending the purpose academy is my greatest achievement so far</p>
+                    <p>During one of the Activation Nights in the Pre-Purpose Academy, I had an encounter where I felt the presence of God so strongly. I received prophetic words during that encounter. Glory to Jesus.
+                    The teachings of the Pre-Purpose Academy have brought so much clarity to me in discovering my purpose. The assignments and resources have also pushed me to put in more effort in fulfilling my purpose. I am grateful to God in the life of Pastor Mrs. Funmilola Omobowoje (FLO)..</p>
                 </div>
             </li>
             </ul>

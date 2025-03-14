@@ -42,14 +42,13 @@ const Visionnaire = () => {
         <div className="about-content">
           <h2>About the Academy</h2>
           <p>
-            Purpose Academy is a dynamic learning hub dedicated to equipping individuals 
-            with the skills, knowledge, and mentorship they need to excel in their careers. 
-            Our programs are designed to be industry-relevant, practical, and transformational.
+          The School of Purpose Academy is a structured  avenue to delve into the subject of Purpose Discovery and Fulfilment. 
+          It is an arm of the School of Purpose where there is an expansion of what the Ministry represents (Purpose Discovery and Fulfilment).
+
           </p>
           <p>
-            Whether you are a beginner or an experienced professional, our structured courses 
-            and hands-on training will help you reach new heights. Join us and be part of a 
-            community that values learning, growth, and purpose.
+          Purpose Academy is the perfect destination where major life questions are unraveled, empowering you to discover your true identity and purpose; and to become the best version of who God made YOU to be.
+
           </p>
         </div>
       </div>

@@ -18,7 +18,7 @@ const App = () => {
       <Navbar></Navbar>
       <Hero></Hero>
      
-      <Title subTitle="Our Progam" title="What We Offer"></Title>
+      <Title subTitle="Our Progams" title="What We Offer"></Title>
       <div className="container">
 
       <Programs></Programs>
@@ -27,9 +27,9 @@ const App = () => {
       <Visionnaire></Visionnaire>
      
       <About></About>
-      <Title subTitle="About Us" title="Who We Are"></Title> 
+      <Title subTitle="Vision, Mission, Goals" title="Statement"></Title> 
       <Mission></Mission>
-      <Title subTitle="Past cohorts" title="Flyer description"></Title>
+      <Title subTitle="Cohort Showcase" title="How Far We've Come"></Title>
       <Cohorts></Cohorts>
       
       <Title subTitle="TESTIMONIALS" title="What Student Says"></Title>

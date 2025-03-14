@@ -6,7 +6,8 @@ const programsData = [
   {
     icon: <FaLaptopCode className="program-icon" />,
     title: "Purpose Academy",
-    description: "An immersive learning experience to help you master tech skills and career development."
+    description: "Purpose Academy is the perfect destination where major life questions are unraveled, empowering you to discover your true identity and purpose; and to become the best version of who God made YOU to be."
+
   },
   {
     icon: <FaChalkboardTeacher className="program-icon" />,
@@ -16,7 +17,7 @@ const programsData = [
   {
     icon: <FaUserGraduate className="program-icon" />,
     title: "Junior Academy",
-    description: "A program designed for young minds to develop foundational skills in technology."
+    description: "A program designed for older preteens and Teenagers to unlock their purpose and equip them for the future."
   }
 ];
 
