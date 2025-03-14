@@ -11,7 +11,7 @@ const Hero = () => {
         </h1>
         <p>Join the next cohort of Purpose Academy and take the first step toward a brighter future.</p>
       <p> Enrollment Now Open!
-      Don't miss out— Register today as enrolment closes 30th March and transform your journey!</p>
+      Don't miss out— Register today as enrolment closes 30th March 2025 and transform your journey!</p>
       <a href="https://tinyurl.com/SOPAcademy-Cohort-4" target='blank'><button className='btn'>Register Now <img src={white_arrow} alt="" /> </button></a>
       
       </div>
