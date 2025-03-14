@@ -11,11 +11,12 @@
 .about-card {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background: #fff;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
     padding: 20px;
-    gap: 20px;
+    gap: 40px;
 }
 
 /* Reverse layout for alternating sections */
@@ -24,9 +25,15 @@
 }
 
 /* Image Styling */
+.about-image {
+    flex: 1; /* Allows flexibility in resizing */
+    display: flex;
+    justify-content: center;
+}
+
 .about-image img {
     width: 100%;
-    max-width: 400px;
+    max-width: 450px; /* Prevents excessive stretching */
     border-radius: 12px;
 }
 
@@ -49,8 +56,8 @@
     margin-bottom: 12px;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
+/* Responsive Fixes */
+@media (max-width: 1024px) {
     .about-card {
         flex-direction: column;
         text-align: center;
@@ -62,5 +69,9 @@
 
     .about-image img {
         max-width: 100%;
+    }
+
+    .about-content {
+        text-align: center;
     }
 }

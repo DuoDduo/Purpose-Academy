@@ -170,6 +170,7 @@
         font-size: 12px;
     }
     .testimony-btn {
+        margin: 0 10%;
         width: 80%;
         max-width: 250px;
     }
