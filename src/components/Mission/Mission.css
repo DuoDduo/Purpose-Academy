@@ -83,3 +83,11 @@
         text-align: center;
     }
 }
+@media (max-width: 1000px) {
+    .mission-vision-section {
+        grid-template-columns: 1fr;
+    }
+    .section-card {
+        text-align: center;
+    }
+}
