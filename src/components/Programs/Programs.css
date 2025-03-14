@@ -1,0 +1,77 @@
+/* Programs Section */
+.programs {
+    margin: 60px auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Card Style */
+.program-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+    padding: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.program-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Icon Container */
+.program-icon-container {
+    background: #ff0000;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    color: white;
+    font-size: 30px;
+}
+
+/* Program Content */
+.program-content h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.program-content p {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .programs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .program-card {
+        width: 90%;
+    }
+}
+/* media query */
+
+/* @media(max-width:650px){
+    .programs{
+        flex-direction: column;
+
+    }
+    .program{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+} */
