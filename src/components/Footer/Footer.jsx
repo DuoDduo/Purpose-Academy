@@ -52,7 +52,7 @@ const Footer = () => {
                     </div>
 
                     {/* Social Media (As its own section) */}
-                    <div className="footer-section footer-social">
+                    <div className="footer-section">
                         <h3>Follow Us</h3>
                         <div className="social-links">
                            <ul>
