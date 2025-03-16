@@ -13,7 +13,7 @@ const Contact = () => {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "0856b251-f67e-4a04-b61f-c02f14a8935f");
+    formData.append("access_key", "d0d75211-cae8-4f89-8e24-a7e88cf65768");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -40,7 +40,7 @@ const Contact = () => {
             Your feedback, questions, and suggestions are important to us.
           </p>
           <ul>
-            <li><img src={mail_icon} alt="email icon" /> schoolofpurposeacademy@gmail.com</li>
+            <li><img src={mail_icon} alt="email icon" /> growth.purposeacademy@gmail.com</li>
             <li><img src={phone_icon} alt="phone icon" /> 08164191133</li>
             <li><img src={phone_icon} alt="phone icon" /> 08168636031</li>
           </ul>
@@ -53,6 +53,9 @@ const Contact = () => {
             
             <label>Email Address</label>
             <input type="email" name="email" placeholder="Enter your email address" required />
+            
+            <label>Contact Number</label>
+            <input type="tel" name="tel" placeholder="Enter your contact details" required />
             
             <label>Enquiry</label>
             <textarea name="message" rows="6" placeholder="Enter your message" required></textarea>

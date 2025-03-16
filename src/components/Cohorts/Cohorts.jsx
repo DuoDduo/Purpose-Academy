@@ -15,7 +15,7 @@ const Cohorts = () => {
        <img src={gallery_4} alt="" />
         <img src={gallery_1} alt="" />
     </div> 
-   <a href="https://surveyheart.com/form/67d149fa49cef6550ea80105 " target='blank'> <button className='btn'>Register Now <img src={white_arrow} alt="" /> </button></a>
+   <a href="https://forms.gle/V4zmFmwj2smdtjoAA" target='blank'> <button className='btn'>Register Now <img src={white_arrow} alt="" /> </button></a>
     </div>
   )
 }
