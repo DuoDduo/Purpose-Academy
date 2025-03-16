@@ -2,6 +2,7 @@ import React from "react";
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import "./Footer.css"; // Importing the CSS file
 import logo from "../../assets/plogo.png";
+import { Link } from 'react-scroll';
 
 const Footer = () => {
     return (
@@ -17,26 +18,28 @@ const Footer = () => {
                         </p>
                     </div>
 
-                    {/* Quick Links */}
+                   {/* Quick Links */}
                     <div className="footer-section">
                         <h3>Quick Links</h3>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Program</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><Link to="hero" smooth={true} offset={0} duration={500}>Home</Link></li>
+                            <li><Link to="programs" smooth={true} offset={-260} duration={500}>Program</Link></li>
+                            <li><Link to="visionnaire" smooth={true} offset={-260} duration={500}>About Us</Link></li>
+                            <li><Link to="contact" smooth={true} offset={-260} duration={500}>Contact</Link></li>
                         </ul>
                     </div>
 
-                    {/* Resources */}
+
+                        {/* Resources */}
                     <div className="footer-section">
-                        <h3>Resources</h3>
+                        <h3>Quick Links</h3>
                         <ul>
-                            <li><a href="#">Documentation</a></li>
-                            <li><a href="#">Support</a></li>
-                            <li><a href="#">Community</a></li>
+                            <li><Link to="cohorts" smooth={true} offset={-260} duration={500}>Cohorts</Link></li>
+                            <li><Link to="testimonials" smooth={true} offset={-260} duration={500}>Testimonials</Link></li>
+                            <li><Link to="faqs" smooth={true} offset={-260} duration={500}>FAQ's</Link></li>
                         </ul>
                     </div>
+
 
                     {/* Legal */}
                     <div className="footer-section">
@@ -52,9 +55,9 @@ const Footer = () => {
                     <div className="footer-section footer-social">
                         <h3>Follow Us</h3>
                         <div className="social-links">
-                            <a href="#"><FaInstagram /> Instagram</a>
-                            <a href="#"><FaFacebook /> Facebook</a>
-                            <a href="#"><FaYoutube /> YouTube</a>
+                            <a href="https://www.instagram.com/schoolofpurpose?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><FaInstagram /> Instagram</a>
+                            <a href="https://web.facebook.com/schoolofpurposesop"><FaFacebook /> Facebook</a>
+                            <a href="https://youtube.com/@pastorflo?si=Cw6acQJYzGRSsGQU"><FaYoutube /> YouTube</a>
                         </div>
                     </div>
                 </div>
