@@ -6,7 +6,7 @@ import user_1 from "../../assets/fol.jpg"
 import user_2 from "../../assets/bthadd.png"
 import user_3 from "../../assets/funke.jpg"
 import user_4 from "../../assets/vgd.png"
-import white_arrow from "../../assets/white-arrow.png"
+// import white_arrow from "../../assets/white-arrow.png"
 
 const Testimonials = () => {
     const slider = useRef();
@@ -89,12 +89,12 @@ const Testimonials = () => {
        </div>
        
       </div>
-      <a href="https://www.instagram.com/p/CwqYQ9zAXgP/?igsh=MXlvNDUxcGJwbHhw"
+      {/* <a href="https://www.instagram.com/p/CwqYQ9zAXgP/?igsh=MXlvNDUxcGJwbHhw"
           target="_blank"
           rel="noopener noreferrer"
         >
           <button className="btn testimony-btn">Read More <img src={white_arrow} alt="" /> </button>
-        </a>
+        </a> */}
     </div>
   )
 }

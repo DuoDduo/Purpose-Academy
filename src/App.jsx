@@ -10,7 +10,7 @@ import Testimonials from './components/Testimonials/Testimonials'
 import Contact from './components/Contact/Contact'
 import Faqs from './components/FAQS/Faqs'
 import Footer from './components/Footer/Footer'
-import Foot from './components/Footer/Foot'
+
 import Mission from './components/Mission/Mission'
 const App = () => {
   return (
@@ -33,14 +33,14 @@ const App = () => {
       <Cohorts></Cohorts>
       <About></About>
       
-      <Title subTitle="TESTIMONIALS" title="What Student Says"></Title>
+      <Title subTitle="TESTIMONIALS" title="Success Stories"></Title>
       <Testimonials></Testimonials>
       <Title subTitle="FAQ'S" title="Frequently Asked Questions"></Title>
       <Faqs></Faqs>
       <Title subTitle="Contact Us" title="Get in Touch"></Title>
       <Contact></Contact>
       <Footer></Footer>
-      <Foot></Foot>
+    
       </div>
     
       </div>

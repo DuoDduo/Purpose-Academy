@@ -84,6 +84,10 @@
 .faq-btn:hover {
     background: #b71c1c;
 }
+.faq-answer ul {
+    list-style: none; /* Removes bullet points */
+    padding: 10px; /* Removes default padding */
+  }
 
 /* Responsive Design */
 @media (max-width: 768px) {

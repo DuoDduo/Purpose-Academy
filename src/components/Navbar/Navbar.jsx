@@ -37,7 +37,7 @@ const Navbar = () => {
         <li><Link to="visionnaire" smooth={true} offset={-260} duration={500} onClick={() => setMobileMenu(false)}>About us</Link></li>
         <li><Link to="cohorts" smooth={true} offset={-260} duration={500} onClick={() => setMobileMenu(false)}>Cohorts</Link></li>
         <li><Link to="testimonials" smooth={true} offset={-260} duration={500} onClick={() => setMobileMenu(false)}>Testimonials</Link></li>
-        <li><Link to="faqs" smooth={true} offset={-260} duration={500} onClick={() => setMobileMenu(false)}>Faq's</Link></li>
+        <li><Link to="faqs" smooth={true} offset={-260} duration={500} onClick={() => setMobileMenu(false)}>FAQ's</Link></li>
         <li><Link to="contact" smooth={true} offset={-260} duration={500} className='btn' onClick={() => setMobileMenu(false)}>Contact us</Link></li>
       </ul>
 
