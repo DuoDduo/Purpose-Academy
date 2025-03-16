@@ -58,7 +58,7 @@ nav ul li {
 
 @media (max-width: 840px) {
     nav {
-        padding: 15px 20px;
+        padding: 5px 20px;
     }
     .logo {
         width: 40px;
@@ -94,7 +94,7 @@ nav ul li {
         display: block;
         position: absolute;
         right: 20px;
-        top: 30px;
+        top: 15px;
         cursor: pointer;
     }
 }
