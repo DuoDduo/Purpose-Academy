@@ -34,6 +34,9 @@ a{
   justify-content: center;
   align-items: center;
   color: #fff;
+  transition: transform 0.3s ease, background 0.3s ease;
+  opacity: 0;
+  animation: fadeIn 1.2s ease-in-out 0.9s forwards;
 }
 .btn img{
   width: 20px;

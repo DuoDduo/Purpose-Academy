@@ -5,6 +5,7 @@
     justify-content: space-between;
     width: 90%;
     padding: 10px;
+    border-radius: 15px;
     /* background-color: #f8f8f8; */
     box-shadow: 0 8px 16px rgba(136, 129, 129, 0.614); /* Adjust shadow as needed */
 }
@@ -86,6 +87,7 @@
   
   .modal-content {
     background: white;
+    border-radius: 15px;
     padding: 20px;
     width: 90%;
     max-width: 400px;
