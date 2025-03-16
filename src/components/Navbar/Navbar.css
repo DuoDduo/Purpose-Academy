@@ -1,22 +1,22 @@
 /* General Navbar Styles */
 nav {
-    width: 100%;
-    color: #fff;
-    padding: 4px 40px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 10;
-    background: white;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  color: #fff;
+  padding: 4px 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  background: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
-    width: 60px;
-    padding: 5px 0;
+  width: 60px;
+  padding: 5px 0;
 }
 
 /* nav ul {
@@ -25,76 +25,76 @@ nav {
 } */
 
 nav ul li {
-    display: inline-block;
-    list-style: none;
-    margin: 5px 20px;
-    font-size: 16px;
-    color: #000;
+  display: inline-block;
+  list-style: none;
+  margin: 5px 20px;
+  font-size: 16px;
+  color: #000;
 }
 
 .dark-nav {
-    background-color: #fffefe;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    transition: 0.5s;
+  background-color: #fffefe;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
 }
 
 /* Menu Icon */
 .menu-icon {
-    display: none;
-    cursor: pointer;
-    width: 30px;
-    height: 30px;
+  display: none;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
 }
 
 /* Responsive Navbar */
 @media (max-width: 1000px) {
-    .logo {
-        width: 40px;
-    }
-    nav ul li {
-        margin: 10px 15px;
-    }
+  .logo {
+    width: 40px;
+  }
+  nav ul li {
+    margin: 10px 15px;
+  }
 }
 
 @media (max-width: 840px) {
-    nav {
-        padding: 5px 20px;
-    }
-    .logo {
-        width: 40px;
-    }
+  nav {
+    padding: 5px 20px;
+  }
+  .logo {
+    width: 40px;
+  }
 
-    /* Mobile Menu */
-    .mobile-menu {
-        position: fixed;
-        top: 0;
-        right: -250px; /* Hidden initially */
-        width: 250px;
-        height: 100vh;
-        background: #e5e5e5;
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        padding-top: 70px;
-        transition: right 0.3s ease-in-out;
-        box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2);
-    }
+  /* Mobile Menu */
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -250px; /* Hidden initially */
+    width: 250px;
+    height: 100vh;
+    background: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-top: 70px;
+    transition: right 0.3s ease-in-out;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2);
+  }
 
-    .mobile-menu li {
-        display: block;
-        margin: 20px 30px;
-    }
+  .mobile-menu li {
+    display: block;
+    margin: 20px 30px;
+  }
 
-    /* Show Sidebar */
-    .show-menu {
-        right: 0 !important;
-    }
+  /* Show Sidebar */
+  .show-menu {
+    right: 0 !important;
+  }
 
-    .menu-icon {
-        display: block;
-        position: absolute;
-        right: 20px;
-        top: 15px;
-        cursor: pointer;
-    }
+  .menu-icon {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    cursor: pointer;
+  }
 }

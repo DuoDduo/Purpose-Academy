@@ -1,93 +1,93 @@
 /* Mission, Vision, and Goals Section */
 .mission-vision-section {
-    width: 90%;
-    margin: 60px auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+  width: 90%;
+  margin: 60px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
 
 /* Card Styling */
 .section-card {
-    background: #fff;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
 }
 
 .section-card:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 /* Header Styling */
 .section-card h2 {
-    font-size: 22px;
-    color: #ff0000;
-    margin-bottom: 10px;
+  font-size: 22px;
+  color: #ff0000;
+  margin-bottom: 10px;
 }
 
 /* Paragraph Styling */
 .section-card p {
-    font-size: 15px;
-    color: #000;
-    line-height: 1.6;
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
 }
 
 /* Read More Button */
 .read-more-btn {
-    background-color: #ff0000;
-    color: #fff;
-    padding: 8px 12px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 14px;
-    margin-top: 10px;
+  background-color: #ff0000;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 10px;
 }
 
 .read-more-btn:hover {
-    background-color: #ff0000;
+  background-color: #ff0000;
 }
 
 /* Goals List */
 .section-card ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .section-card ul li {
-    font-size: 15px;
-    color: #000;
-    line-height: 1.6;
-    padding-left: 20px;
-    position: relative;
-    margin-bottom: 8px;
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 8px;
 }
 
 /* Custom Bullet Points */
 .section-card ul li::before {
-    content: "✔";
-    color: #ff0000;
-    position: absolute;
-    left: 0;
-    font-size: 16px;
+  content: "✔";
+  color: #ff0000;
+  position: absolute;
+  left: 0;
+  font-size: 16px;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .mission-vision-section {
-        grid-template-columns: 1fr;
-    }
-    .section-card {
-        text-align: center;
-    }
+  .mission-vision-section {
+    grid-template-columns: 1fr;
+  }
+  .section-card {
+    text-align: center;
+  }
 }
 @media (max-width: 1024px) {
-    .mission-vision-section {
-        grid-template-columns: 1fr;
-    }
-    .section-card {
-        text-align: center;
-    }
+  .mission-vision-section {
+    grid-template-columns: 1fr;
+  }
+  .section-card {
+    text-align: center;
+  }
 }

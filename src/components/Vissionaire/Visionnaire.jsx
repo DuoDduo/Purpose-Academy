@@ -30,7 +30,7 @@ const Visionnaire = () => {
         <div className="about-content">
           <h2>About the Visionnaire</h2>
           <p>
-            Pastor Mrs. Funmilola Omoboje (PFLO') is the Visionnaire of Purpose Academy. She is a passionate leader committed to 
+            Pastor Mrs. Funmilola Omobowoje (PFLO') is the Visionnaire of Purpose Academy. She is a passionate leader committed to 
             empowering individuals with education and mentorship. With years of experience 
             in education, leadership, and career development, she believes in the 
             power of knowledge to create lasting impact.
