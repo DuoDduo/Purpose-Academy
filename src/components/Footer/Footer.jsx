@@ -55,9 +55,12 @@ const Footer = () => {
                     <div className="footer-section footer-social">
                         <h3>Follow Us</h3>
                         <div className="social-links">
-                            <a href="https://www.instagram.com/schoolofpurpose?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><FaInstagram /> Instagram</a>
-                            <a href="https://web.facebook.com/schoolofpurposesop"><FaFacebook /> Facebook</a>
-                            <a href="https://youtube.com/@pastorflo?si=Cw6acQJYzGRSsGQU"><FaYoutube /> YouTube</a>
+                           <ul>
+                            <li> <a href="https://www.instagram.com/schoolofpurpose?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><FaInstagram /> Instagram</a></li>
+                            <li>
+                            <a href="https://web.facebook.com/schoolofpurposesop"><FaFacebook /> Facebook</a></li>
+                          <li><a href="https://youtube.com/@pastorflo?si=Cw6acQJYzGRSsGQU"><FaYoutube /> YouTube</a></li>
+                           </ul>
                         </div>
                     </div>
                 </div>
