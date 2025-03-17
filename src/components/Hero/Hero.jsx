@@ -26,7 +26,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 1 }}
         >
-          "Elevate your skills and expand your opportunities— Enrollment for the next cohort is now open! Secure your spot before registration closes on <strong>30th March, 2025</strong>.  
+          Elevate your skills and expand your opportunities— Enrollment for the next cohort is ongoing! Secure your spot before registration closes on <strong>30th March, 2025</strong>.  
         </motion.p>
 
         <motion.a 
