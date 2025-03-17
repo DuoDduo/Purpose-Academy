@@ -17,7 +17,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 1 }}
         >
-          "Disocver Your Purpose, Fuel Your Impact."
+          "Discover Your Purpose, Fuel Your Impact."
         </motion.h1>
 
 
