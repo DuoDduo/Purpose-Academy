@@ -39,7 +39,8 @@ const Mission = () => {
               on teachings, impartations, and mentorship in every aspect of life that 
               affects the fulfilment of Purpose. God's desire is for our lives to be 
               filled with His glory, reflecting heaven on earth, and securing our 
-              eternal place with Him.
+              eternal place with Him after our sojourn. <strong>This is the core 
+              focus of the School of Purpose.</strong>
             </motion.p>
           )}
         </AnimatePresence>
@@ -64,22 +65,32 @@ const Mission = () => {
       >
         <h2>Our Mission</h2>
         <p>
-          "The Spirit of the Lord is upon me, because he hath anointed me to preach 
-          the gospel to the poor..."
+       <strong> Isaiah 61:1-4/Luke 4:18:</strong> The Spirit of the Lord is upon me, because he hath anointed me to preach 
+          the gospel to the poor "He hath sent me to heal the brokenhearted, to preach deliverance to 
+                the captives, and recovering of sight to the blind, to set at liberty 
+                them that are bruised...
         </p>
 
         <AnimatePresence>
           {showMoreMission && (
             <>
+              {/* <motion.p
+                initial={{ opacity: 0, y: -10 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -10 }}
+                transition={{ duration: 0.5 }}
+              >
+              
+              </motion.p> */}
               <motion.p
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -10 }}
                 transition={{ duration: 0.5 }}
               >
-                "He hath sent me to heal the brokenhearted, to preach deliverance to 
-                the captives, and recovering of sight to the blind, to set at liberty 
-                them that are bruised..."
+                <strong>Matthew 4:23</strong> - And Jesus went about all Galilee, teaching in their synagogues (indoor platforms), and 
+                preaching the gospel of the kingdom (proclaiming the gospel via outdoor platforms) and 
+                healing all manner of sickness and all manner of disease among the people.
               </motion.p>
               <motion.p
                 initial={{ opacity: 0, y: -10 }}
@@ -87,7 +98,10 @@ const Mission = () => {
                 exit={{ opacity: 0, y: -10 }}
                 transition={{ duration: 0.5 }}
               >
-                <strong>Matthew 4:23</strong> - Teaching, preaching, and healing all manner of sickness.
+                <strong>Jeremiah 1:4-5: </strong>  (Purpose discovery and fulfilment) Then the word of the LORD came unto me, saying, 
+                Before I formed thee in the belly, I knew thee; and before thou camest forth out of the womb I 
+                sanctified thee, and I ordained thee a prophet unto the nations.
+
               </motion.p>
               <motion.p
                 initial={{ opacity: 0, y: -10 }}
@@ -95,7 +109,11 @@ const Mission = () => {
                 exit={{ opacity: 0, y: -10 }}
                 transition={{ duration: 0.5 }}
               >
-                <strong>Jeremiah 1:4-5</strong> - Purpose discovery and fulfilment.
+                <strong>Jer 1:10: </strong>(Pulling down the old and building the new) see, I have this day set thee over the 
+                nations and over the kingdoms, to root out, and to pull down, and to destroy, and to throw down, 
+                to build , and to plant.
+                (Raising and grooming in the prophetic to serve as prophets to the nations)
+
               </motion.p>
             </>
           )}
@@ -120,16 +138,20 @@ const Mission = () => {
         transition={{ duration: 0.8, delay: 0.4 }}
       >
         <h2>Our Goals</h2>
+        <p>The primary goal of Purpose Academy is to facilitate individual’s discovery and 
+        fulfilment of Purpose. We are committed to actualising the following;
+        </p>
         <ul>
           <li>Raising Kingdom Generals</li>
-          <li>Grooming from base level to peak impact</li>
+          <li>Grooming from the base level to the genius, and from genius to the peak of kingdom impact
+          </li>
           <li>Meeting you where you are but not leaving you there</li>
         </ul>
 
         <AnimatePresence>
           {showMoreGoals && (
             <>
-              <motion.ul
+              {/* <motion.ul
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -10 }}
@@ -138,17 +160,17 @@ const Mission = () => {
                 <li>Making disciples of all nations</li>
                 <li>Advancing the Kingdom of God through mentorship</li>
                 <li>Fostering a collective chain of responsibility</li>
-              </motion.ul>
+              </motion.ul> */}
               <motion.p
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -10 }}
                 transition={{ duration: 0.5 }}
               >
-                Furthermore, Purpose Academy aims to play its role in advancing the Kingdom of God, 
+                Furthermore, Purpose Academy aims to play her role in advancing the Kingdom of God, 
                 just as Jesus poured out Himself into His disciples, who in turn made countless 
-                disciples, including YOU. The ultimate goal is to make disciples of all Nations 
-                through a collective chain of responsibility within each individual's sphere of influence.
+                disciples, including YOU. <strong>The ultimate goal is to make disciples of all nations 
+                through a collective chain of responsibility within each individual's sphere of influence.</strong>
               </motion.p>
             </>
           )}

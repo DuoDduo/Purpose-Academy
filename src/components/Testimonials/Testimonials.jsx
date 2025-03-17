@@ -6,23 +6,31 @@ import user_1 from "../../assets/fol.jpg"
 import user_2 from "../../assets/bthadd.png"
 import user_3 from "../../assets/funke.jpg"
 import user_4 from "../../assets/vgd.png"
+import user_5 from "../../assets/promise.jpg"; // Import new user image
+import user_6 from "../../assets/timi.jpg"; // Import new user image
 // import white_arrow from "../../assets/white-arrow.png"
 
 const Testimonials = () => {
-    const slider = useRef();
-    let tx = 0;
-    const slideForward = ()=>{
-       if(tx > -50){
-        tx -= 25;
-       }
-       slider.current.style.transform = `translateX(${tx}%)`
-    }
-    const slideBackward = ()=>{
-        if(tx < 0){
-            tx += 25;
-           }
-           slider.current.style.transform = `translateX(${tx}%)`
+     const slider = useRef(null);
+    const txRef = useRef(0); // Persist tx across renders
+
+    const slideForward = () => {
+        if (txRef.current > -100 + 100 / 3) { 
+            txRef.current -= 100 / 3;
+            if (slider.current) {
+                slider.current.style.transform = `translateX(${txRef.current}%)`;
+            }
         }
+    };
+
+    const slideBackward = () => {
+        if (txRef.current < 0) {
+            txRef.current += 100 / 3;
+            if (slider.current) {
+                slider.current.style.transform = `translateX(${txRef.current}%)`;
+            }
+        }
+    };
 
   return (
     <div className='testimonials'>
@@ -37,12 +45,27 @@ const Testimonials = () => {
                         <img src={user_1} alt="" />
                         <div>
                             <h3>Folashade Steve-Bodunde</h3>
-                            <span>Lagos Nigeria</span>
+                            <span>Lagos, Nigeria</span>
                         </div>
                     </div>
                     <p>The teachings from the Pre-Purpose Academy have helped me to better understand my purpose. I learnt to set goals and work with timelines and this has made me more effective.
                     During the evangelism exercises, I was able to effectively use the gifts of the Spirit as taught by Pastor (Mrs.) Funmilola Omobowoje. Additionally, my grammatical constructions have improved and I have also gained clarity on my mission and the people I am sent to.</p>
                 </div>
+            </li>
+            <li>
+                    <div className="slide">
+                        <div className="user-info">
+                            <img src={user_5} alt="" />
+                            <div>
+                                <h3>Promise Olaoye</h3>
+                                <span>Ogun,Nigeria</span>
+                            </div>
+                        </div>
+                        <p>The Pre-Purpose Academy was a challenging and exciting ride for me. I was made to understand the importance of purpose and vision and how to create a plan for my future.
+                        I also learnt to see the bigger picture of myself.
+                        The materials shared stretched my mind and my capacity.
+                        I am ready to go ahead and live life with purpose!</p>
+                    </div>
             </li>
             <li>
                 <div className="slide">
@@ -55,6 +78,19 @@ const Testimonials = () => {
                     </div>
                     <p>I am grateful to God for clarity I have received while engaging the materials in the Purpose Academy. I used to have a problem with goal-setting. By reason of the academy, I have seen an obvious improvement on this. I am now able to set and meet up with my goals. I was recommended for a job and it required me to complete a task in a limited time. By applying what I learnt in the academy, I was able to compete the task and I got the job.</p>
                 </div>
+            </li>
+            <li>
+                    <div className="slide">
+                        <div className="user-info">
+                            <img src={user_6} alt="" />
+                            <div>
+                                <h3>Timilehin Akintunde</h3>
+                                <span>Ogun, Nigeria</span>
+                            </div>
+                        </div>
+                        <p>My time in the Pre-Purpose Academy was a time of stretching myself beyond what I thought was my limit. I have gained so much direction for my life through the academy. I now have a better picture of where I am going and so I can
+                        journey accurately. Praise be to God!</p>
+                    </div>
             </li>
             <li>
                 <div className="slide">
@@ -82,6 +118,8 @@ const Testimonials = () => {
                     The teachings of the Pre-Purpose Academy have brought so much clarity to me in discovering my purpose. The assignments and resources have also pushed me to put in more effort in fulfilling my purpose. I am grateful to God in the life of Pastor Mrs. Funmilola Omobowoje (FLO)..</p>
                 </div>
             </li>
+               
+             
             </ul>
 
         </div>

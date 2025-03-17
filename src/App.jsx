@@ -27,7 +27,8 @@ const App = () => {
       <Visionnaire></Visionnaire>
      
       
-      <Title subTitle="Vision, Mission, Goals" title="Statement"></Title> 
+      <Title subTitle="Vision, Mission, Goals Of The Academy 
+" title="Statement"></Title> 
       <Mission></Mission>
       <Title subTitle="Cohort Showcase" title="How Far We've Come"></Title>
       <Cohorts></Cohorts>

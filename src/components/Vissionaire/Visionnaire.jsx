@@ -14,7 +14,7 @@ const Visionnaire = () => {
         <div className="about-content">
           <h2>About the Academy</h2>
           <p>
-          The School of Purpose Academy is a structured  avenue to delve into the subject of Purpose Discovery and Fulfilment. 
+          Purpose Academy is a structured  avenue to delve into the subject of Purpose Discovery and Fulfilment. 
           It is an arm of the School of Purpose where there is an expansion of what the Ministry represents (Purpose Discovery and Fulfilment).
 
           </p>
@@ -30,15 +30,15 @@ const Visionnaire = () => {
         <div className="about-content">
           <h2>About the Visionnaire</h2>
           <p>
-            Pastor Mrs. Funmilola Omobowoje (PFLO') is the Visionnaire of Purpose Academy. She is a passionate leader committed to 
-            empowering individuals with education and mentorship. With years of experience 
-            in education, leadership, and career development, she believes in the 
-            power of knowledge to create lasting impact.
+          Pastor Mrs Funmilola Omobowoje, fondly called Pastor Flo', is a dynamic and revelational preacher of God's Word with a mandate of setting the hearts of people to knowing and building personal relationships with God. <br></br>
+  
+  
+          She is the visionaire  of School of Purpose - (SOP) a Ministry created with the mandate of impacting lives for the discovery and fulfillment of purpose, knowing God experientially through the Ministry of the Holy Spirit, Worship and prophetic and healing encounters which in every month, holds virtually and physically.
+          
           </p>
           <p>
-            The mission is to cultivate an environment where people are inspired to grow, 
-            innovate, and lead with purpose. Through Purpose Academy, she aims to bridge the 
-            gap between talent and opportunity, transforming lives one learner at a time.
+          Pastor Mrs  Funmilola Omobowoje is a woman of God who has mastered the dynamics of hosting and introducing God’s presence and effortlessly demonstrates the power and potency of God’s Word. She is happily married to her loving husband, Pastor Temitayo Omobowoje and they both serve as pastors in the Redeemed Christian Church of God.
+  
           </p>
         </div>
         <div className="about-image">
