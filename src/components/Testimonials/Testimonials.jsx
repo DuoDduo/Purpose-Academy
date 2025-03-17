@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef,useState,useEffect } from 'react'
 import "./Testimonials.css"
 import next_icon from "../../assets/next-icon.png"
 import back_icon from"../../assets/back-icon.png"
@@ -11,25 +11,41 @@ import user_6 from "../../assets/timi.jpg"; // Import new user image
 // import white_arrow from "../../assets/white-arrow.png"
 
 const Testimonials = () => {
-     const slider = useRef(null);
-    const txRef = useRef(0); // Persist tx across renders
-
-    const slideForward = () => {
-        if (txRef.current > -100 + 100 / 3) { 
-            txRef.current -= 100 / 3;
-            if (slider.current) {
-                slider.current.style.transform = `translateX(${txRef.current}%)`;
-            }
-        }
+    const slider = useRef(null);
+    const txRef = useRef(0);
+    const [itemsPerSlide, setItemsPerSlide] = useState(2);
+  
+    const updateItemsPerSlide = () => {
+      if (window.innerWidth >= 1024) {
+        setItemsPerSlide(2);
+      } else {
+        setItemsPerSlide(1);
+      }
     };
-
-    const slideBackward = () => {
-        if (txRef.current < 0) {
-            txRef.current += 100 / 3;
-            if (slider.current) {
-                slider.current.style.transform = `translateX(${txRef.current}%)`;
-            }
+  
+    useEffect(() => {
+      updateItemsPerSlide();
+      window.addEventListener("resize", updateItemsPerSlide);
+      return () => window.removeEventListener("resize", updateItemsPerSlide);
+    }, []);
+  
+    const slideForward = () => {
+      const maxSlides = Math.ceil(6 / itemsPerSlide);
+      if (txRef.current > -100 + 100 / maxSlides) {
+        txRef.current -= 100 / maxSlides;
+        if (slider.current) {
+          slider.current.style.transform = `translateX(${txRef.current}%)`;
         }
+      }
+    };
+  
+    const slideBackward = () => {
+      if (txRef.current < 0) {
+        txRef.current += 100 / Math.ceil(6 / itemsPerSlide);
+        if (slider.current) {
+          slider.current.style.transform = `translateX(${txRef.current}%)`;
+        }
+      }
     };
 
   return (
