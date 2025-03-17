@@ -112,7 +112,7 @@ const Mission = () => {
                 <strong>Jer 1:10: </strong>(Pulling down the old and building the new) see, I have this day set thee over the 
                 nations and over the kingdoms, to root out, and to pull down, and to destroy, and to throw down, 
                 to build , and to plant.
-                (Raising and grooming in the prophetic to serve as prophets to the nations)
+               <strong> (Raising and grooming in the prophetic to serve as prophets to the nations)</strong>
 
               </motion.p>
             </>

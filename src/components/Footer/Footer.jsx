@@ -14,7 +14,7 @@ const Footer = () => {
                     <div className="footer-section">
                         <h3>About Us</h3>
                         <p>
-                        The School of Purpose Academy is a structured  avenue to delve into the subject of Purpose Discovery and Fulfilment. 
+                        Purpose Academy is a structured  avenue to delve into the subject of Purpose Discovery and Fulfilment. 
                         </p>
                     </div>
 
