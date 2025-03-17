@@ -17,18 +17,24 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 1 }}
         >
-          Unlock your potential!
+          "Disocver Your Purpose, Fuel Your Impact."
         </motion.h1>
 
 
+        {/* <motion.p 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.6, duration: 1 }}
+        >
+          "Disocver Your Purpose. Fuel Your Impact."
+        </motion.p> */}
         <motion.p 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 1 }}
         >
-          Discover your purpose and step into impact and fulfilment.  Enrollment for the next cohort is ongoing! Secure your spot before registration closes on <strong>30th March, 2025</strong>.  
+        Enrollment for the next cohort is ongoing! Secure your spot before registration closes on <strong>30th March, 2025</strong>.  
         </motion.p>
-
         <motion.a 
           href="https://forms.gle/V4zmFmwj2smdtjoAA" 
           target='_blank'
