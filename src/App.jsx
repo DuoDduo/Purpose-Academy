@@ -33,7 +33,7 @@ const App = () => {
       <Mission></Mission>
       <Title subTitle=" PURPOSE ACADEMY Cohort Gallery" title="How Far We've Come"></Title>
       <Cohorts></Cohorts>
-      <Title subTitle="Personalized Mentorship Experience" title="Discover Your Unique Life Journey"></Title>
+      <Title subTitle="Personalized Mentorship Experience" title="Transformative Sessions"></Title>
       <About></About>
 
       

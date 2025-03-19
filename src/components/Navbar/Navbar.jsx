@@ -29,6 +29,7 @@ const Navbar = () => {
   return (
     <nav className="navbar-container">
       <img src={plogo} alt="Logo" className='logo' />
+      <p>School of Purpose</p>
 
       {/* Navigation Menu */}
       <ul className={mobileMenu ? "mobile-menu show-menu" : "mobile-menu"}>
