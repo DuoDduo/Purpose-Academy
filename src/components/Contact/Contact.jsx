@@ -40,7 +40,8 @@ const Contact = () => {
             Your feedback, questions, and suggestions are important to us.
           </p>
           <ul>
-            <li><img src={mail_icon} alt="email icon" /> growth.purposeacademy@gmail.com</li>
+          <li><img src={mail_icon} alt="email icon" /> officialschoolofpurpose@gmail.com</li>
+            <li><img src={mail_icon} alt="email icon" /> growth.purposeacademy@gmail.com | (Purpose Academy)</li>
             <li><img src={phone_icon} alt="phone icon" /> 08164191133</li>
             <li><img src={phone_icon} alt="phone icon" /> 08168636031</li>
           </ul>

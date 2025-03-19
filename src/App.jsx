@@ -18,25 +18,28 @@ const App = () => {
       <Navbar></Navbar>
       <Hero></Hero>
      
+      <Title subTitle="About Us" title="Who We Are"></Title> 
+
+      <Visionnaire></Visionnaire>
       <Title subTitle="Our Progams" title="What We Offer"></Title>
       <div className="container">
 
       <Programs></Programs>
-      <Title subTitle="About Us" title="Who We Are"></Title> 
-
-      <Visionnaire></Visionnaire>
+      
      
       
-      <Title subTitle="Vision, Mission & Goals Of The Academy 
+      <Title subTitle="Vision, Mission, Goals,Core Values
 " title="Statement"></Title> 
       <Mission></Mission>
-      <Title subTitle="Cohort Showcase" title="How Far We've Come"></Title>
+      <Title subTitle=" PURPOSE ACADEMY Cohort Gallery" title="How Far We've Come"></Title>
       <Cohorts></Cohorts>
+      <Title subTitle="Personalized Mentorship Experience" title="Discover Your Unique Life Journey"></Title>
       <About></About>
+
       
-      <Title subTitle="TESTIMONIALS" title="Success Stories"></Title>
+      <Title subTitle="TESTIMONIALS" title="Purpose Academy Success Stories"></Title>
       <Testimonials></Testimonials>
-      <Title subTitle="FAQ'S" title="Frequently Asked Questions"></Title>
+      <Title subTitle=" purpose Academy FAQ'S" title="Frequently Asked Questions"></Title>
       <Faqs></Faqs>
       <Title subTitle="Contact Us" title="Get in Touch"></Title>
       <Contact></Contact>

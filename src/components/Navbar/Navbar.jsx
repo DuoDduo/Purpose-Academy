@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import './Navbar.css';
-import plogo from "../../assets/plogo.png";
+import plogo from "../../assets/soplogo.png";
 import menu_icon from "../../assets/menu.png";
 import close_icon from "../../assets/close.png"; // Add a close icon
 
@@ -33,8 +33,9 @@ const Navbar = () => {
       {/* Navigation Menu */}
       <ul className={mobileMenu ? "mobile-menu show-menu" : "mobile-menu"}>
         <li><Link to="hero" smooth={true} offset={0} duration={500} onClick={() => setMobileMenu(false)}>Home</Link></li>
+        <li><Link to="visionnaire" smooth={true} offset={-260} duration={500} onClick={() => setMobileMenu(false)}>About Us</Link></li>
         <li><Link to="programs" smooth={true} offset={-260} duration={500} onClick={() => setMobileMenu(false)}>Program</Link></li>
-        <li><Link to="visionnaire" smooth={true} offset={-260} duration={500} onClick={() => setMobileMenu(false)}>About us</Link></li>
+        
         <li><Link to="cohorts" smooth={true} offset={-260} duration={500} onClick={() => setMobileMenu(false)}>Cohorts</Link></li>
         <li><Link to="testimonials" smooth={true} offset={-260} duration={500} onClick={() => setMobileMenu(false)}>Testimonials</Link></li>
         <li><Link to="faqs" smooth={true} offset={-260} duration={500} onClick={() => setMobileMenu(false)}>FAQ's</Link></li>

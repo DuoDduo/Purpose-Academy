@@ -1,10 +1,10 @@
 /* About Section */
 .about-section {
-  width: 90%;
+  width: 80%;
   margin: 60px auto;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 60px;
 }
 
 /* About Card */
@@ -16,7 +16,7 @@
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
   padding: 20px;
-  gap: 40px;
+  gap: 10px;
 }
 
 /* Reverse layout for alternating sections */

@@ -36,10 +36,11 @@ const About = () => {
           <img src={about_img} alt="" className='about-img' />
         </div>
         <div className="about-right">
-          <h3>EXCLUSIVE ONE-ON-ONE COACHING</h3>
-          <h2>Discover Your Unique Life Journey with PFlo'</h2>
-          <p>Are you ready to fulfill your destiny? Register now for a transformative virtual coaching session with PFlo!</p>
-          <p>Join Pastor (Mrs) Funmilola Omobowoje (PFlo') for an exclusive one-on-one virtual coaching session. Discover and deploy the tools needed to fulfill God's original plan through your life's unique journey. Step into the fullness of your God-given purpose, connect with your original self, and unlock your potentials to fulfill your divine purpose.</p>
+          <h3>Exclusive One-on-One Coaching</h3>
+          <br />
+          {/* <h2>Navigate Your Life’s Path with Confidence</h2> */}
+          <p>Are you ready to embark on a life-changing journey tailored just for you? Secure your spot now for an exclusive one-on-one virtual coaching session with Pastor (Mrs.) Funmilola Omobowoje (PFlo’), designed specifically to meet your unique needs and aspirations.</p> 
+          <p>This personalized session will provide you with deep insights, strategic guidance, and spiritual clarity to align with God’s original plan for your life. Together, we’ll uncover your true identity, refine your vision, and equip you with the tools to confidently walk in your divine purpose.</p>
           <button className='btn' onClick={() => setIsModalOpen(true)}>Enquire Now <img src={white_arrow} alt="" /></button>
         </div>
       </div>

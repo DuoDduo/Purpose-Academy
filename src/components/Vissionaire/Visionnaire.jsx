@@ -12,14 +12,16 @@ const Visionnaire = () => {
           <img src={academyImage} alt="Purpose Academy" />
         </div>
         <div className="about-content">
-          <h2>About the Academy</h2>
+          <h2>About School of Purpose</h2>
           <p>
-          Purpose Academy is a structured  avenue to delve into the subject of Purpose Discovery and Fulfilment. 
-          It is an arm of the School of Purpose where there is an expansion of what the Ministry represents (Purpose Discovery and Fulfilment).
+          The School of Purpose (SOP) is a divinely inspired ministry dedicated to helping individuals discover and fulfill their God-given purpose. It is structured into two key divisions:<br></br>
+
+          <strong>Purpose Academy</strong> – A structured platform designed to provide in-depth teachings, mentorship, and guidance on Purpose Discovery, Fulfillment, and Restoration to Your Originality.
 
           </p>
           <p>
-          Purpose Academy is the perfect destination where major life questions are unraveled, empowering you to discover your true identity and purpose; and to become the best version of who God made YOU to be.
+          <strong>Heaven on Earth</strong> – The ministry arm of SOP, dedicated to fostering divine encounters through worship, prophetic ministrations, and healing services. It also houses the Purpose Clubs, which provide tailored mentorship for different groups: Singles, Children and teenagers and Couples . <br></br>
+          Through SOP, lives are transformed, destinies are realigned, and individuals are empowered to fulfill their God-given purpose.
 
           </p>
         </div>
@@ -30,14 +32,16 @@ const Visionnaire = () => {
         <div className="about-content">
           <h2>About the Visionnaire</h2>
           <p>
-          Pastor Mrs Funmilola Omobowoje, fondly called Pastor Flo', is a dynamic and revelational preacher of God's Word with a mandate of setting the hearts of people to knowing and building personal relationships with God. <br></br>
+          Pastor Mrs. Funmilola Omobowoje, fondly called Pastor Flo, is a dynamic and revelational preacher of God's Word, committed to guiding individuals toward a deeper personal relationship with God. She carries a divine mandate to set the hearts of people on fire for God, inspiring them to know Him intimately and fulfill their God-ordained assignments.
+ <br></br>
   
   
-          She is the visionaire  of School of Purpose - (SOP) a Ministry created with the mandate of impacting lives for the discovery and fulfillment of purpose, knowing God experientially through the Ministry of the Holy Spirit, Worship and prophetic and healing encounters which in every month, holds virtually and physically.
+ She is widely recognized for her ability to usher in God's presence and demonstrate the transformative power of His Word effortlessly. Through her ministry, countless lives have been transformed as she ministers under the leading of the Holy Spirit with prophetic insight and healing grace.
+
           
           </p>
           <p>
-          Pastor Mrs  Funmilola Omobowoje is a woman of God who has mastered the dynamics of hosting and introducing God’s presence and effortlessly demonstrates the power and potency of God’s Word. She is happily married to her loving husband, Pastor Temitayo Omobowoje and they both serve as pastors in the Redeemed Christian Church of God.
+          Pastor Flo is happily married to her loving husband, Pastor Temitayo Omobowoje, and together, they serve as pastors in the Redeemed Christian Church of God.
   
           </p>
         </div>

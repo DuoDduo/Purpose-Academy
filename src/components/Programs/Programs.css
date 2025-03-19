@@ -1,10 +1,10 @@
-/* Programs Section */
+/* Programs Section */ 
 .programs {
-    margin: 60px auto;
-    width: 90%;
+    margin: 40px auto;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between; /* Ensures even spacing */
     gap: 20px;
 }
 
@@ -14,7 +14,7 @@
     border-radius: 12px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 30%;
+    width: 23%; /* Ensures four cards in one row */
     padding: 25px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     opacity: 0; /* Ensures smooth fade-in animation */
@@ -64,7 +64,7 @@
 /* Responsive Design */
 @media (max-width: 1024px) {
     .program-card {
-        width: 45%;
+        width: 45%; /* Two cards per row */
     }
 }
 
@@ -75,6 +75,6 @@
     }
 
     .program-card {
-        width: 90%;
+        width: 90%; /* Full width for small screens */
     }
 }

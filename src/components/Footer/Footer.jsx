@@ -1,7 +1,7 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import "./Footer.css"; // Importing the CSS file
-import logo from "../../assets/plogo.png";
+import logo from "../../assets/soplogo.png";
 import { Link } from 'react-scroll';
 
 const Footer = () => {
@@ -14,7 +14,7 @@ const Footer = () => {
                     <div className="footer-section">
                         <h3>About Us</h3>
                         <p>
-                        Purpose Academy is a structured  avenue to delve into the subject of Purpose Discovery and Fulfilment. 
+                        The School of Purpose (SOP) is a divinely inspired ministry dedicated to helping individuals discover and fulfill their God-given purpose.
                         </p>
                     </div>
 
@@ -71,7 +71,7 @@ const Footer = () => {
                 {/* Copyright with Logo */}
                 <div className="footer-copyright">
                     <img src={logo} alt="Purpose Academy Logo" />
-                    <p>&copy; {new Date().getFullYear()} Purpose Academy. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} School of Purpose. All rights reserved.</p>
                 </div>
             </div>
         </footer>
