@@ -32,7 +32,7 @@
   font-size: 15px;
   color: #555;
   line-height: 1.6;
-  padding: 0px 20px;
+  /* padding: 0px 20px; */
 }
 
 /* Goals List */
@@ -45,6 +45,7 @@
 .section-card ul li {
   font-size: 15px;
   color: #555;
+ list-style-type: decimal;
   line-height: 1.6;
   padding-left: 20px;
   position: relative;
@@ -53,13 +54,13 @@
 }
 
 /* Custom Bullet Points */
-.section-card ul li::before {
+/* .section-card ul li::before {
   content: "✔";
   color: #ff0000;
   position: absolute;
   left:0;
   font-size: 16px;
-}
+} */
 
 /* Responsive Design */
 @media (max-width: 1024px) {
