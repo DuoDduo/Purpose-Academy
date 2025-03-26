@@ -1,4 +1,5 @@
 import React from 'react'
+import { Analytics } from "@vercel/analytics/react"
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import Programs from './components/Programs/Programs'
@@ -15,6 +16,7 @@ import Mission from './components/Mission/Mission'
 const App = () => {
   return (
     <div>
+        <Analytics />
       <Navbar></Navbar>
       <Hero></Hero>
      
