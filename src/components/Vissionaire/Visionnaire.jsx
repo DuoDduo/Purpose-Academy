@@ -43,7 +43,7 @@ const Visionnaire = () => {
           </p>
           <p>
           Beyond personal development, Pastor Flo' is a dynamic preacher with a divine mandate to ignite hearts for God. She ministers under the leading of the Holy Spirit with prophetic insight and healing grace, ushering people into deeper intimacy with God and their life’s purpose.
-          <br></br> A true Originality Miner, she helps individuals uncover and refine their uniqueness, equipping them to make a lasting impact in their world.
+          {/* <br></br> A true Originality Miner, she helps individuals uncover and refine their uniqueness, equipping them to make a lasting impact in their world. */}
 
   
           </p>
