@@ -32,16 +32,19 @@ const Visionnaire = () => {
         <div className="about-content">
           <h2>About the Visionnaire</h2>
           <p>
-          Pastor Mrs. Funmilola Omobowoje, fondly called Pastor Flo, is a dynamic and revelational preacher of God's Word, committed to guiding individuals toward a deeper personal relationship with God. She carries a divine mandate to set the hearts of people on fire for God, inspiring them to know Him intimately and fulfill their God-ordained assignments.
+          Pastor Mrs. Funmilola Omobowoje, fondly known as Pastor Flo', is a highly respected mentor, coach, and visionary leader dedicated to helping individuals discover, embrace, and fulfil their purpose. Since founding the School of Purpose in 2016, she has empowered people from diverse backgrounds through Purpose Academy (Junior & Senior), mentorship programs, Purpose Clubs, retreats, outreaches, among others.
+
  <br></br>
   
   
- She is widely recognized for her ability to usher in God's presence and demonstrate the transformative power of His Word effortlessly. Through her ministry, countless lives have been transformed as she ministers under the leading of the Holy Spirit with prophetic insight and healing grace.
+ With a passion for personal growth and transformation, Pastor Flo' has mentored hundreds locally and internationally, guiding them to refine their focus, develop their talents, and navigate life with clarity and direction. Her holistic approach emphasizes values, strengths, and aspirations, helping individuals live authentically and create meaningful impact.
 
           
           </p>
           <p>
-          Pastor Flo is happily married to her loving husband, Pastor Temitayo Omobowoje, and together, they serve as pastors in the Redeemed Christian Church of God.
+          Beyond personal development, Pastor Flo' is a dynamic preacher with a divine mandate to ignite hearts for God. She ministers under the leading of the Holy Spirit with prophetic insight and healing grace, ushering people into deeper intimacy with God and their life’s purpose.
+          <br></br> A true Originality Miner, she helps individuals uncover and refine their uniqueness, equipping them to make a lasting impact in their world.
+
   
           </p>
         </div>
