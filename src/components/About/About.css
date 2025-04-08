@@ -39,6 +39,9 @@
   margin: 10px 0;
   max-width: 400px;
 }
+.creative li{
+  font-size:15px;
+}
 .about p {
   color: #555;
   margin-bottom: 15px;

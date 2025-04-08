@@ -13,12 +13,15 @@ import Faqs from './components/FAQS/Faqs'
 import Footer from './components/Footer/Footer'
 
 import Mission from './components/Mission/Mission'
+import Creative from './components/Creative/Creative'
 const App = () => {
   return (
     <div>
         <Analytics />
       <Navbar></Navbar>
       <Hero></Hero>
+      <Title subTitle="Purpose Creative Academy" title="Unlock Your Creative Potential"></Title>
+      <Creative></Creative>
      
       <Title subTitle="About Us" title="Who We Are"></Title> 
 
