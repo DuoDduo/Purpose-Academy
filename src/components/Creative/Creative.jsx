@@ -8,10 +8,10 @@ const Creative = () => {
 
   return (
     <div className='creative' >
-      <div className="about-left">
-        <img src={about_img} alt="" className='about-img' />
+      <div className="creative-left">
+        <img src={about_img} alt="" className='creative-img' />
       </div>
-      <div className="about-right">
+      <div className="creative-right">
         <h3> Purpose Creative Academy</h3>
         <p>Lights, mic, action – let's unlock your creative voice! Your first step into the world of speaking, performing, and purposeful expression. Unlock your creativity with hands-on training from Pastor Flo', an experienced radio OAP, public speaker, jingles artist, and actor with a background in church dramatizations, in:</p>
 

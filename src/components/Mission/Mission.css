@@ -73,6 +73,9 @@
   .mission-vision-section {
     grid-template-columns: 1fr; /* Single column on mobile */
   }
+  .mission p li{
+    font-size: 14px;
+  }
   .section-card {
     text-align: center;
   }
