@@ -58,7 +58,7 @@
     .about-left {
       flex-basis: 100%;
       margin: 20px;
-      order: 2;
+      order: -1;
     }
     .about-right {
       flex-basis: 100%;
