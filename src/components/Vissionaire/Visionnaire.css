@@ -1,92 +1,61 @@
-/* About Section */
-.about-section {
-  width: 80%;
-  margin: 60px auto;
+.visionnaire-section {
+  background-color: #fff;
+  padding: 60px 20px;
   display: flex;
-  flex-direction: column;
-  gap: 60px;
+  justify-content: center;
 }
 
-/* About Card */
-.about-card {
+.visionnaire-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #fff;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-  border-radius: 12px;
-  padding: 20px;
-  gap: 30px;
+  gap: 50px;
+  max-width: 1200px;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
-/* Reverse layout for alternating sections */
-.about-card.reverse {
-  flex-direction: row-reverse;
-}
-
-/* Image Styling */
-.about-image {
-  flex: 0.5; /* Allows flexibility in resizing */
+.visionnaire-image {
+  flex: 1;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-.about-image img {
+.visionnaire-image img {
   width: 100%;
-  max-width: 450px; /* Prevents excessive stretching */
+  max-width: 480px;
   border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
 }
 
-/* About Content */
-.about-content {
+.visionnaire-content {
   flex: 1;
   text-align: left;
 }
 
-.about-content h2 {
-  font-size: 20px;
+.visionnaire-content h2 {
+  font-size: 1rem;
   color: #ff0000;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 
-.about-content p {
+.visionnaire-content p {
   font-size: 15px;
-  color: #555;
-  line-height: 1.6;
-  margin-bottom: 12px;
+  color: #444;
+  line-height: 1.8;
+  margin-bottom: 16px;
 }
 
-/* Responsive Fixes */
+/* Responsive adjustments */
 @media (max-width: 1024px) {
-  .about-card {
+  .visionnaire-wrapper {
     flex-direction: column;
     text-align: center;
   }
 
-  .about-card.reverse {
-    flex-direction: column;
-  }
-
-  .about-image img {
-    max-width: 100%;
-  }
-
-  .about-content {
+  .visionnaire-content {
     text-align: center;
-  }
-}
-/* Responsive */
-@media (max-width: 768px) {
-  .about-card {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .about-card.reverse {
-    flex-direction: column;
-  }
-
-  .about-image img {
-    max-width: 100%;
   }
 }

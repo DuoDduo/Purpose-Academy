@@ -3,9 +3,26 @@ import { motion } from 'framer-motion';
 import "./Hero.css";
 import white_arrow from "../../assets/white-arrow.png";
 
-const Hero = () => {
+const Hero = ({ 
+  title = '"Discover Your Purpose, Fuel Your Impact."', 
+  subtitle, 
+  buttonText = 'Register Now', 
+  buttonLink = 'https://forms.gle/V4zmFmwj2smdtjoAA', 
+  hideButton = false, 
+  backgroundImage 
+}) => {
+  const bgStyle = backgroundImage ? {
+    backgroundImage: `
+      linear-gradient(rgba(11, 0, 1, 0.7), rgba(0, 0, 0, 0.7)), 
+      url(${backgroundImage})
+    `,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+  } : {};
+
   return (
-    <div className='hero container'>
+    <div className='hero container' style={bgStyle}>
       <motion.div 
         className="hero-text"
         initial={{ opacity: 0, y: 50 }} 
@@ -17,36 +34,33 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 1 }}
         >
-          "Discover Your Purpose, Fuel Your Impact."
+          {title}
         </motion.h1>
 
+        {subtitle && (
+          <motion.p 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.6, duration: 1 }}
+          >
+            {subtitle}
+          </motion.p>
+        )}
 
-        {/* <motion.p 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.6, duration: 1 }}
-        >
-          "Disocver Your Purpose. Fuel Your Impact."
-        </motion.p> */}
-        <motion.p 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.6, duration: 1 }}
-        >
-        Enrollment for Purpose Academy Cohort 4 is ongoing! Secure your spot before registration closes on <strong>15th May, 2025</strong>.  
-        </motion.p>
-        <motion.a 
-          href="https://forms.gle/V4zmFmwj2smdtjoAA" 
-          target='_blank'
-          initial={{ opacity: 0, scale: 0.8 }} 
-          animate={{ opacity: 1, scale: 1 }} 
-          transition={{ delay: 0.8, duration: 0.8 }}
-        >
-          <button className='btn'>
-            Register Now <img src={white_arrow} alt="arrow" />
-          </button>
-        </motion.a>
-
+        {!hideButton && (
+          <motion.a 
+            href={buttonLink} 
+            target='_blank' 
+            rel="noopener noreferrer"
+            initial={{ opacity: 0, scale: 0.8 }} 
+            animate={{ opacity: 1, scale: 1 }} 
+            transition={{ delay: 0.8, duration: 0.8 }}
+          >
+            <button className='btn'>
+              {buttonText} <img src={white_arrow} alt="arrow" />
+            </button>
+          </motion.a>
+        )}
       </motion.div>
     </div>
   );

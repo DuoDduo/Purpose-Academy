@@ -1,9 +1,8 @@
 .hero {
     width: 100%;
     min-height: 80vh;
-    background: linear-gradient(rgba(11, 0, 1, 0.7), rgba(0, 0, 0, 0.7)), url("../../assets/bg-1.jpg");
-    background-size: cover;
-    background-position: center;
+    /* Remove fixed bg image from CSS */
+    /* Background image is set dynamically via inline styles */
     color: #fff;
     display: flex;
     align-items: center;
@@ -11,6 +10,8 @@
     text-align: center;
     padding: 20px;
     animation: fadeIn 1.5s ease-in-out;
+    /* Ensure relative positioning if you add overlays */
+    position: relative;
 }
 
 /* Hero Text */
@@ -39,9 +40,17 @@
 /* Register Button */
 .hero .btn {
     border: none;
+    background: #ff3300;
+    color: white;
+    padding: 12px 28px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 6px;
     transition: transform 0.3s ease, background 0.3s ease;
     opacity: 0;
     animation: fadeIn 1.2s ease-in-out 0.9s forwards;
+    display: inline-flex;
+    align-items: center;
 }
 
 .hero .btn:hover {
@@ -94,8 +103,9 @@
         margin: 15px auto 30px;
     }
 
-    /* .hero .btn {
+    /* Optional smaller button size for mobile */
+    .hero .btn {
         font-size: 1rem;
         padding: 10px 16px;
-    } */
+    }
 }

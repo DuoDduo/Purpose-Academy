@@ -1,59 +1,34 @@
-import React from 'react'
-import { Analytics } from "@vercel/analytics/react"
-import Navbar from './components/Navbar/Navbar'
-import Hero from './components/Hero/Hero'
-import Programs from './components/Programs/Programs'
-import Title from './components/Title/Title'
-import About from './components/About/About'
-import Visionnaire from './components/Vissionaire/Visionnaire'
-import Cohorts from './components/Cohorts/Cohorts'
-import Testimonials from './components/Testimonials/Testimonials'
-import Contact from './components/Contact/Contact'
-import Faqs from './components/FAQS/Faqs'
-import Footer from './components/Footer/Footer'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Analytics } from "@vercel/analytics/react";
 
-import Mission from './components/Mission/Mission'
-import Creative from './components/Creative/Creative'
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
+
+// Pages
+import HomePage from './pages/HomePage/homepage';
+import Academy from './pages/Academy/Academy';
+import About from './pages/About/About';
+import Contact from './pages/Contact/Contact';
+import HeavenOnEarth from './pages/HeavenOnEarth/HeavenOnEarth';
+
 const App = () => {
   return (
-    <div>
-        <Analytics />
-      <Navbar></Navbar>
-      <Hero></Hero>
-      <Title subTitle="Purpose Creative Academy" title="Unlock Your Creative Potential"></Title>
-      <Creative></Creative>
-     
-      <Title subTitle="About Us" title="Who We Are"></Title> 
+    <Router>
+      <Analytics />
+      <Navbar />
 
-      <Visionnaire></Visionnaire>
-      <Title subTitle="Our Progams" title="What We Offer"></Title>
-      <div className="container">
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/academy" element={<Academy />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/heaven" element={<HeavenOnEarth />} />
+      </Routes>
 
-      <Programs></Programs>
-      
-     
-      
-      <Title subTitle="Vision, Mission, Goals,Core Values
-" title="Statement"></Title> 
-      <Mission></Mission>
-      <Title subTitle=" PURPOSE ACADEMY Cohort Gallery" title="How Far We've Come"></Title>
-      <Cohorts></Cohorts>
-      <Title subTitle="Personalized Mentorship Experience" title="Transformative Sessions"></Title>
-      <About></About>
+      <Footer />
+    </Router>
+  );
+};
 
-      
-      <Title subTitle="TESTIMONIALS" title="Purpose Academy Success Stories"></Title>
-      <Testimonials></Testimonials>
-      <Title subTitle=" purpose Academy FAQ'S" title="Frequently Asked Questions"></Title>
-      <Faqs></Faqs>
-      <Title subTitle="Contact Us" title="Get in Touch"></Title>
-      <Contact></Contact>
-      <Footer></Footer>
-    
-      </div>
-    
-      </div>
-  )
-}
-
-export default App
+export default App;

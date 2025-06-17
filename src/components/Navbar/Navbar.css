@@ -1,28 +1,49 @@
 /* General Navbar Styles */
-nav {
+nav.navbar-container {
   width: 100%;
-  color: #fff;
-  padding: 4px 40px;
+  color: #000; /* changed to black for readability on white bg */
+  padding: 8px 40px;
   position: fixed;
   top: 0;
   left: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 10;
+  z-index: 1000; /* increased for stacking above menu */
   background: white;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
-.logo {
-  width: 80px;
-  /* padding: 0px 0; */
+/* Container wrapping logo and text */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between logo and text */
+  text-decoration: none;
+  color: #000;
 }
 
-/* nav ul {
-    display: flex;
-    transition: all 0.3s ease-in-out;
-} */
+/* Logo styles */
+.logo {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Logo text */
+.logo-text {
+  font-size: 1rem;
+  color: #000;
+  white-space: nowrap;
+}
+
+/* Navigation menu items */
+nav ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
 
 nav ul li {
   display: inline-block;
@@ -32,10 +53,26 @@ nav ul li {
   color: #000;
 }
 
-.dark-nav {
-  background-color: #fffefe;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-  transition: 0.5s;
+nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* nav ul li a:hover {
+  text-decoration: underline;
+} */
+
+/* Button style */
+nav ul li .btn {
+  background-color: #ff1a00;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+nav ul li .btn:hover {
+  background-color: #e60000;
 }
 
 /* Menu Icon */
@@ -44,31 +81,37 @@ nav ul li {
   cursor: pointer;
   width: 30px;
   height: 30px;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  z-index: 1100; /* sits above the mobile menu */
 }
 
 /* Responsive Navbar */
 @media (max-width: 1000px) {
   .logo {
-    width: 40px;
+    height: 40px;
   }
+
   nav ul li {
     margin: 10px 15px;
   }
 }
 
 @media (max-width: 840px) {
-  nav {
+  nav.navbar-container {
     padding: 5px 20px;
   }
+
   .logo {
-    width: 40px;
+    height: 35px;
   }
 
   /* Mobile Menu */
   .mobile-menu {
     position: fixed;
     top: 0;
-    right: -250px; /* Hidden initially */
+    right: -250px; /* hidden by default */
     width: 250px;
     height: 100vh;
     background: #e5e5e5;
@@ -78,6 +121,7 @@ nav ul li {
     padding-top: 70px;
     transition: right 0.3s ease-in-out;
     box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
   }
 
   .mobile-menu li {
@@ -92,9 +136,5 @@ nav ul li {
 
   .menu-icon {
     display: block;
-    position: absolute;
-    right: 20px;
-    top: 15px;
-    cursor: pointer;
   }
 }
