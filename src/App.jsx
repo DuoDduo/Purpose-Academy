@@ -6,17 +6,21 @@ import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 
 // Pages
-import HomePage from './pages/HomePage/homepage';
+// import HomePage from "./pages/HomePage/HomePage";
+
+
 import Academy from './pages/Academy/Academy';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import HeavenOnEarth from './pages/HeavenOnEarth/HeavenOnEarth';
+import HomePage from './pages/HomePage/HomePage';
 
 const App = () => {
   return (
     <Router>
       <Analytics />
       <Navbar />
+
 
       <Routes>
         <Route path="/" element={<HomePage />} />
