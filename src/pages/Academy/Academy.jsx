@@ -27,7 +27,7 @@ const Academy = () => {
         title="Welcome to Purpose Academy"
         subtitle="Enrollment for Purpose Academy Cohort 4 is ongoing! Secure your spot before registration closes on 15th May, 2025."
         buttonText="Register Now"
-        buttonLink="https://forms.gle/V4zmFmwj2smdtjoAA"
+        buttonLink="https://forms.gle/N3ZHxRFGRudVWyp38"
         backgroundImage={bgAcademy}
       />
 

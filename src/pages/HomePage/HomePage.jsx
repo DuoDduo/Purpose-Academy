@@ -22,11 +22,11 @@ const HomePage = () => {
         title="Discover Your Purpose, Fuel Your Impact."
         subtitle={
           <>
-            Enrollment for Purpose Academy Cohort 4 is ongoing! Secure your spot before registration closes on <strong>15th May, 2025</strong>.
+            Enrollment for Junior Academy Cohort 2 is ongoing! Secure your spot before registration closes on <strong>15th August, 2025</strong>.
           </>
         }
         buttonText="Register Now"
-        buttonLink="https://forms.gle/V4zmFmwj2smdtjoAA"
+        buttonLink="https://forms.gle/N3ZHxRFGRudVWyp38"
         backgroundImage={bgHome}
       />
       
