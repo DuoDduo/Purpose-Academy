@@ -51,7 +51,7 @@ const PurposeTable = () => {
           <p>
             The ministry arm of SOP, dedicated to divine encounters through worship, prophetic ministrations, healing services, and Purpose Clubs for Singles, Teens, Children, and Couples.
           </p>
-          <Link to="/heaveh" className="btn read-more-btn">
+          <Link to="/heaven" className="btn read-more-btn">
             Explore Heaven on Earth
           </Link>
         </div>
