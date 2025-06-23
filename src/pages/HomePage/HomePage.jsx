@@ -22,7 +22,7 @@ const HomePage = () => {
         title="Discover Your Purpose, Fuel Your Impact."
         subtitle={
           <>
-            Enrollment for Junior Academy Cohort 2 is ongoing! Secure your spot before registration closes on <strong>15th August, 2025</strong>.
+            Enrollment for Junior Academy Cohort 2 is ongoing! Secure your spot before registration closes on <strong>Wednesday, 6th August, 2025</strong>.
           </>
         }
         buttonText="Register Now"

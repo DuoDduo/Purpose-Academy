@@ -21,7 +21,7 @@ const HeavenOnEarth = () => {
       />
       <div className="container">
         <Title subTitle="HeavenOnEarth" title="Experience the Divine" />
-        <p>Welcome to the HeavenOnEarth page. Here, you can add content describing your mission, vision, and offerings related to this initiative.</p>
+        <p>Welcome to the HeavenOnEarth page. Coming Soon...</p>
         {/* Add more components or content as needed */}
       </div>
     </>

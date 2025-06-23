@@ -11,7 +11,7 @@ import imageMain from "../../assets/cohort-4.png";
 const programs = [
   {
     title: "Purpose Creative Academy",
-    description: "A hands-on program for teens exploring creative talents like media, design, and digital skills in line with purpose.",
+    description: "A hands-on program for anyone exploring creative talents like public speaking, jingles, acting and broadcasting.",
     image: imageCreative,
     key: "creative",
   },
@@ -23,12 +23,12 @@ const programs = [
   },
   {
     title: "Junior Academy",
-    description: "Empowering pre-teens to discover identity, values, and purpose through interactive teachings and fun learning.",
+    description: "Empowering pre-teens and teenagers to discover identity, values, and purpose through interactive teachings and fun learning.",
     image: imageJunior,
     key: "junior",
   },
   {
-    title: "Main Academy",
+    title: "Purpose Academy",
     description: "A transformative cohort-based program for teens and young adults on identity, vision, and living on purpose.",
     image: imageMain,
     key: "main",

@@ -2,7 +2,7 @@
 nav.navbar-container {
   width: 100%;
   color: #000; /* changed to black for readability on white bg */
-  padding: 8px 40px;
+  padding: 10px 40px;
   position: fixed;
   top: 0;
   left: 0;
@@ -83,7 +83,7 @@ nav ul li .btn:hover {
   height: 30px;
   position: absolute;
   right: 20px;
-  top: 15px;
+  top: 10px;
   z-index: 1100; /* sits above the mobile menu */
 }
 

@@ -25,7 +25,11 @@ const Academy = () => {
       
       <Hero
         title="Welcome to Purpose Academy"
-        subtitle="Enrollment for Purpose Academy Cohort 4 is ongoing! Secure your spot before registration closes on 15th May, 2025."
+        subtitle={
+          <>
+            Enrollment for Junior Academy Cohort 2 is ongoing! Secure your spot before registration closes on <strong>Wednesday, 6th August, 2025</strong>.
+          </>
+        }
         buttonText="Register Now"
         buttonLink="https://forms.gle/N3ZHxRFGRudVWyp38"
         backgroundImage={bgAcademy}
