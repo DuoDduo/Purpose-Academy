@@ -8,6 +8,7 @@ import Faqs from '../../components/FAQS/Faqs';
 import Contact from '../../components/Contact/Contact';
 import Navbar from '../../components/Navbar/Navbar';
 import Hero from '../../components/Hero/Hero';
+import MasterClass from '../../components/MasterClass/MasterClass';
 
 // Import the home page background image
 import bgHome from '../../assets/academy-1.jpg'; // adjust the path and filename as needed
@@ -29,6 +30,8 @@ const HomePage = () => {
         buttonLink="https://forms.gle/N3ZHxRFGRudVWyp38"
         backgroundImage={bgHome}
       />
+      <Title subTitle="Ongoing Registration" title="Purpose & Leadership Masterclass" />
+      <MasterClass/>
       
       <Title subTitle="About Us" title="School of Purpose Division" />
       <PurposeTable/>

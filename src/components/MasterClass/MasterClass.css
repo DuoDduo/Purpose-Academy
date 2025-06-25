@@ -1,0 +1,175 @@
+/* ───── Wrapper Section (applies spacing outside the card) ───── */
+.masterclass-wrapper {
+  width: 100%;
+  padding-inline: 14px;
+  padding-block: 40px;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+}
+
+/* ───── Container Card ───── */
+.masterclass-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 12px 11px rgba(0, 0, 0, 0.08);
+  padding: clamp(20px, 5vw, 40px);
+  width: 100%;
+  max-width: 1000px;
+  box-sizing: border-box;
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeUp 1s ease-out forwards;
+}
+
+/* ───── Layout ───── */
+.masterclass-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.masterclass-image {
+  flex: 1;
+  opacity: 0;
+  transform: translateX(-30px);
+  animation: slideInLeft 1s ease-out 0.3s forwards;
+}
+
+.masterclass-image img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* ───── Text ───── */
+.masterclass-text {
+  flex: 1;
+  opacity: 0;
+  transform: translateX(30px);
+  animation: slideInRight 1s ease-out 0.6s forwards;
+}
+
+.masterclass-text h3 {
+  font-size: clamp(1.4rem, 2vw, 1.8rem);
+  font-weight: bold;
+  color: #ff0000;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.masterclass-text .highlight {
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-bottom: 16px;
+  color: #222;
+}
+
+.masterclass-text p {
+  font-size: 1rem;
+  line-height: 1.65;
+  margin-bottom: 18px;
+  color: #333;
+}
+
+/* ───── List ───── */
+.masterclass-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.masterclass-list li {
+  position: relative;
+  padding-left: 26px;
+  margin-bottom: 12px;
+}
+
+.masterclass-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #ff0000;
+  font-weight: bold;
+}
+
+/* ───── Enrollment Info ───── */
+.enrollment-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.date,
+.note {
+  font-weight: bold;
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.note {
+  color: #ff0000;
+  background: rgba(255, 0, 0, 0.08);
+  padding: 8px 14px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+/* ───── Button ───── */
+.btn {
+  display: inline-block;
+  background-color: #ff0000;
+  color: white;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #cc0000;
+}
+
+/* ───── Responsive Layout ───── */
+@media (min-width: 768px) {
+  .masterclass-inner {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .masterclass-image {
+    max-width: 50%;
+  }
+
+  .masterclass-text {
+    padding-left: 32px;
+  }
+}
+
+/* ───── Animations ───── */
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

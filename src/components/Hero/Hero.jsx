@@ -22,48 +22,56 @@ const Hero = ({
   } : {};
 
   return (
-    <div className='hero container' style={bgStyle}>
+    <div className="hero-wrapper">
       <motion.div 
-        className="hero-text"
-        initial={{ opacity: 0, y: 50 }} 
-        animate={{ opacity: 1, y: 0 }} 
-        transition={{ duration: 1, ease: "easeOut" }} 
+        className='hero container'
+        style={bgStyle}
+        initial={{ scale: 1.05 }} // zoomed in
+        animate={{ scale: 1 }}    // zooms out
+        transition={{ duration: 6, ease: "easeOut" }}
       >
-        <motion.h1 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2, duration: 1 }}
+        <motion.div 
+          className="hero-text"
+          initial={{ opacity: 0, y: 50 }} 
+          animate={{ opacity: 1, y: 0 }} 
+          transition={{ duration: 1, ease: "easeOut" }} 
         >
-          {title}
-        </motion.h1>
-
-        {subtitle && (
-          <motion.p 
+          <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.6, duration: 1 }}
+            transition={{ delay: 0.2, duration: 1 }}
           >
-            {subtitle}
-          </motion.p>
-        )}
+            {title}
+          </motion.h1>
 
-        {!hideButton && (
-          <motion.a 
-            href={buttonLink} 
-            target='_blank' 
-            rel="noopener noreferrer"
-            initial={{ opacity: 0, scale: 0.8 }} 
-            animate={{ opacity: 1, scale: 1 }} 
-            transition={{ delay: 0.8, duration: 0.8 }}
-          >
-            <button className='btn'>
-              {buttonText} <img src={white_arrow} alt="arrow" />
-            </button>
-          </motion.a>
-        )}
+          {subtitle && (
+            <motion.p 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.6, duration: 1 }}
+            >
+              {subtitle}
+            </motion.p>
+          )}
+
+          {!hideButton && (
+            <motion.a 
+              href={buttonLink} 
+              target='_blank' 
+              rel="noopener noreferrer"
+              initial={{ opacity: 0, scale: 0.8 }} 
+              animate={{ opacity: 1, scale: 1 }} 
+              transition={{ delay: 0.8, duration: 0.8 }}
+            >
+              <button className='btn'>
+                {buttonText} <img src={white_arrow} alt="arrow" />
+              </button>
+            </motion.a>
+          )}
+        </motion.div>
       </motion.div>
     </div>
   );
-}
+};
 
 export default Hero;
