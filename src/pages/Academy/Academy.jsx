@@ -17,6 +17,7 @@ import Footer from '../../components/Footer/Footer';
 import bgAcademy from '../../assets/bg-1.jpg';  // Adjust path/name as needed
 import AcademyProgram from '../../components/AcademyProgram/AcademyProgram';
 import AboutAcademy from '../../components/About/AboutAcademy';
+import JuniorTestimonials from '../../components/Testimonials/JuniorTestimonials';
 
 const Academy = () => {
   return (
@@ -46,7 +47,8 @@ const Academy = () => {
         {/* <Title subTitle="Vision, Mission, Goals & Core Values" title="Our Foundation" />
         <Mission /> */}
         {/* <Creative/> */}
-
+        <Title subTitle="Testimonials" title="Junior Academy" />
+          <JuniorTestimonials/>
         <Title subTitle="Cohort Gallery" title="How Far We've Come" />
         <Cohorts />
 

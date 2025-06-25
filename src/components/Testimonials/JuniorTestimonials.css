@@ -1,0 +1,74 @@
+/* ---------- Section ---------- */
+.junior-testimonials-section {
+  padding: 20px 16px;
+  background: #f9f9f9;
+}
+
+/* ---------- Title ---------- */
+.junior-section-title {
+  text-align: center;
+  font-size: clamp(1.8rem, 5vw, 2.4rem);
+  margin-bottom: 48px;
+  color: #111;
+}
+
+/* ---------- Swiper Container ---------- */
+.junior-testimonials-swiper {
+  max-width: 1160px;
+  margin-inline: auto;
+  padding-bottom: 48px; /* space for pagination dots */
+}
+
+/* ---------- Individual Card ---------- */
+.junior-testimonial-card {
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.junior-testimonial-card:hover {
+  transform: translateY(-6px);
+}
+
+/* ---------- Image ---------- */
+.junior-testimonial-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* ---------- Swiper Arrows ---------- */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ff3300;
+  width: 42px;
+  height: 42px;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* ---------- Swiper Pagination ---------- */
+.swiper-pagination-bullet {
+  background: #bbb;
+  opacity: 1;
+  transition: background 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+  background: #ff3300;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 480px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none; /* hide arrows on tiny screens */
+  }
+}
