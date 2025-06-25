@@ -135,7 +135,7 @@ const ProgramModal = ({ programKey, onClose }) => {
       <p>
         This program lays a strong spiritual and moral foundation in a fun, safe, and engaging virtual space.
       </p>
-      <a href="#" className="btn">
+      <a href="https://forms.gle/N3ZHxRFGRudVWyp38" className="btn">
         Register Now
       </a>
     </>

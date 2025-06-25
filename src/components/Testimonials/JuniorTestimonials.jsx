@@ -23,7 +23,7 @@ const JuniorTestimonials = () => (
       modules={[Navigation, Pagination, Autoplay]}
       navigation
       pagination={{ clickable: true }}
-      autoplay={{ delay: 3500, disableOnInteraction: false }}
+      autoplay={{ delay: 3000, disableOnInteraction: false }}
       loop
       spaceBetween={24}
       slidesPerView={1}
