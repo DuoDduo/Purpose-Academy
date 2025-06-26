@@ -33,7 +33,7 @@ const HomePage = () => {
       <Title subTitle="Ongoing Registration" title="Purpose & Leadership Masterclass" />
       <MasterClass/>
       
-      <Title subTitle="About Us" title="School of Purpose Division" />
+      <Title subTitle="About Us" title="School of Purpose " />
       <PurposeTable/>
       {/* <Title subTitle="About The Visionnaire" title="Our Founder" />
       <Visionnaire /> */}
