@@ -14,8 +14,8 @@ const About = () => {
       <Hero
         title="Who We Are"
         subtitle="Discover the mission and vision that drive us at School of Purpose."
-        buttonText="Visit Academy"
-        buttonLink="/academy"
+        buttonText="Contact US"
+        buttonLink="/contact"
         backgroundImage={bgAbout}
       />
       <div className="containe">
