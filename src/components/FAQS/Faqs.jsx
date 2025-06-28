@@ -11,7 +11,7 @@ const faqData = [
   {
     question: "How do I belong to the academy?",
     answer:
-      "To become a part of the academy, you can enroll through the link https://forms.gle/V4zmFmwj2smdtjoAA and await a notification email if you are shortlisted.",
+      "To become a part of the academy, you can enroll via the registration button and await a notification email if you are shortlisted.",
   },
   {
     question: "How do I know more about the academy?",
