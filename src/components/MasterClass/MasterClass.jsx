@@ -28,7 +28,7 @@ const MasterClass = () => {
 
             <div className="enrollment-box">
               <p className="date">Date: 10th – 12th July, 2025</p>
-              <p className="note">Enrollment closes: 8st July, 2025</p>
+              <p className="note">Enrollment closes: 8th July, 2025</p>
               <a
                 href="https://forms.gle/QKRWMbQc82cgVYvo6"
                 target="_blank"
