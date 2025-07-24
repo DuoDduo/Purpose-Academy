@@ -32,10 +32,11 @@ const HeavenOnEarth = () => {
         <Title subTitle="HeavenOnEarth" title="Experience the Divine" />
         <AboutHeaven/>
       </div>
-       <Title subTitle="Sermons" title="Hear the Word, Grow in Faith" />
-      <Sermons/>
       <Title subTitle="LIVE" title="Experience Worship Live" />
       <LiveExperience/>
+       <Title subTitle="Sermons" title="Hear the Word, Grow in Faith" />
+      <Sermons/>
+      
         <Title subTitle="Upcoming Events" title="Mark Your Calendar" />
       <Event/>
       <Title subTitle="Stay Connected" title="Follow Us" />
