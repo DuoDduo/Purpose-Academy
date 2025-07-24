@@ -1,0 +1,226 @@
+/* Section Styling */
+.live-section {
+  padding: 80px 20px;
+  background-color: #fdfdfd;
+  text-align: center;
+  animation: fadeIn 0.8s ease-in-out;
+}
+.live-section {
+   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(5, 5, 5, 0.8)),
+    url('../../assets/academy-1.jpg') center/cover no-repeat;
+  padding: 4rem 1rem;
+  color: white;
+}
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Container */
+.live-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Headings */
+.live-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: #111;
+  margin-bottom: 12px;
+}
+
+.live-description {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.7;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+/* Grid Layout */
+.live-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 28px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+/* Individual Card */
+.live-card {
+  background-color: #fff;
+  border: 1px solid #e4e4e4;
+  border-radius: 20px;
+  padding: 28px 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(0);
+}
+
+.live-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.06);
+}
+
+/* Icon Styling */
+.icon-wrapper {
+  font-size: 36px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.icon-wrapper:hover {
+  transform: scale(1.1);
+}
+
+.video-icon {
+  background-color: #111;
+  color: #fff;
+}
+
+.audio-icon {
+  background-color: #f5f5f5;
+  color: #111;
+  border: 1px solid #ddd;
+}
+
+/* Text Content */
+.card-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.card-text {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  line-height: 1.6;
+}
+
+/* Buttons */
+.card-btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  width: 100%;
+  max-width: 160px;
+  cursor: pointer;
+}
+
+.video-btn {
+  background-color: #111;
+  color: #fff;
+}
+
+.video-btn:hover {
+  background-color: #333;
+}
+
+.audio-btn {
+  background-color: #f5f5f5;
+  color: #111;
+  border: 1px solid #ddd;
+}
+
+.audio-btn:hover {
+  background-color: #e6e6e6;
+}
+
+/* YouTube Button */
+.youtube-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #ff0000;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.youtube-button:hover {
+  background-color: #cc0000;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .live-title {
+    font-size: 26px;
+  }
+
+  .live-description {
+    font-size: 16px;
+  }
+
+  .card-title {
+    font-size: 18px;
+  }
+
+  .card-text {
+    font-size: 14px;
+  }
+
+  .card-btn {
+    font-size: 14px;
+  }
+}
+/* Live Reminder */
+.live-reminder {
+  background-color: #fff8e1;
+  border-left: 5px solid #ff9800;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 40px;
+  animation: slideFadeIn 1s ease-in-out;
+  box-shadow: 0 4px 14px rgba(255, 152, 0, 0.1);
+}
+
+.reminder-text {
+  font-size: 16px;
+  color: #444;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+/* Animation for Reminder */
+@keyframes slideFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive reminder text */
+@media (max-width: 768px) {
+  .reminder-text {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,131 @@
+.sermon-section {
+  background-color: #fafafa;
+  padding: 4rem 2rem;
+  color: #222;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.sermon-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sermon-heading {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #d32f2f; /* Brand red */
+  font-weight: 700;
+}
+
+.sermon-subtext {
+  margin-bottom: 2rem;
+  color: #555;
+  font-size: 1.1rem;
+  font-weight: 500;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
+
+.sermon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2.5rem;
+  justify-items: center;
+}
+
+.sermon-card {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgb(0 0 0 / 0.1);
+  width: 100%;
+  max-width: 320px;
+  padding: 1.8rem 1.5rem 2rem;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.sermon-card:hover,
+.sermon-card:focus-visible {
+  box-shadow: 0 16px 36px rgb(0 0 0 / 0.15);
+  transform: translateY(-6px);
+  outline: none;
+}
+
+.sermon-img-wrapper {
+  width: 100px;
+  height: 100px;
+  border: 3px solid transparent;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.2rem;
+  position: relative;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 0.08);
+}
+
+.sermon-logo {
+  font-size: 4.5rem;
+  line-height: 1;
+  user-select: none;
+}
+
+/* Coming Soon Overlay */
+.coming-soon-overlay {
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  background: rgba(211, 47, 47, 0.9);
+  color: white;
+  font-weight: 700;
+  font-size: 0.75rem;
+  padding: 3px 8px;
+  border-radius: 12px;
+  pointer-events: none;
+  user-select: none;
+  letter-spacing: 0.04em;
+}
+
+/* Sermon Content */
+.sermon-content h4 {
+  font-size: 1.25rem;
+  margin-bottom: 0.6rem;
+  font-weight: 700;
+  color: #222;
+  user-select: none;
+}
+
+.sermon-content p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .sermon-heading {
+    font-size: 2rem;
+  }
+
+  .sermon-subtext {
+    font-size: 1rem;
+  }
+
+  .sermon-content h4 {
+    font-size: 1.1rem;
+  }
+
+  .sermon-content p {
+    font-size: 0.9rem;
+  }
+}
