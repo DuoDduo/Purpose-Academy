@@ -8,10 +8,10 @@ import ca from '../../assets/ca.jpg';  // Fallback image if needed
 const events = [
   {
     id: 1,
-    title: 'Heaven on Earth Experience',
-    description: 'A monthly power-packed service filled with worship, word, and wonders. Don’t miss divine encounters.',
-    date: 'Every Last Sunday | 4 PM WAT',
-    registerLink: '#',
+    title: '2025 December Retreat',
+    description: 'Join us this December for diverse moves of God; salvation, healing, deliverance, outpouring, revival, clarity and more',
+    date: 'Third Weekend in december | Details coming soon',
+    registerLink: 'https://forms.gle/mht6nQsReSaiCW3k8',
     image: bg1,
   },
   {
@@ -24,18 +24,18 @@ const events = [
   },
   {
     id: 3,
-    title: 'Celebration and Anointing Servvice',
-    description: "August Edition Of Celebration And Anointing Service, Don't miss out on Sunday, 3.8.2025 as we approach the new month with a grateful heart and receive the oil for destiny alignment.",
+    title: 'August Celebration and Anointing Servvice',
+    description: " Don't miss out as we approach the new month with a grateful heart and receive the oil for destiny alignment.",
     date: 'Sunday | 3rd August 2025',
     registerLink: '#',
     image: ca,
   },
   {
     id: 4,
-    title: 'School of Purpose Impartation',
-    description: 'A quarterly gathering of visionaries to receive impartation for destiny activation.',
-    date: 'Quarterly | Check announcement updates',
-    registerLink: '#',
+    title: 'August Virtual Healing and Prophetic Session',
+    description: 'A Weekly session to receive healings and impartations for destiny activation.',
+    date: 'Wednesday | 6th August 2025',
+    registerLink: 'https://www.youtube.com/@Pastorflo/streams',
     image: bg1,
   },
 ];

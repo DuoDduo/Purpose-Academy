@@ -13,6 +13,8 @@ import MasterClass from '../../components/MasterClass/MasterClass';
 // Import the home page background image
 import bgHome from '../../assets/academy-1.jpg'; // adjust the path and filename as needed
 import PurposeTable from '../../components/PurposeTable/PurposeTable';
+import Follow from '../../components/Follow/Follow';
+import Event from '../../components/Event/Event';
 
 const HomePage = () => {
   return (
@@ -30,27 +32,35 @@ const HomePage = () => {
         buttonLink="https://forms.gle/N3ZHxRFGRudVWyp38"
         backgroundImage={bgHome}
       />
+       <Title subTitle="About Us" title="School of Purpose " />
+      <PurposeTable/>
       <Title subTitle="Ongoing Registration" title="Purpose & Leadership Masterclass" />
       <MasterClass/>
       
-      <Title subTitle="About Us" title="School of Purpose " />
-      <PurposeTable/>
+     
       {/* <Title subTitle="About The Visionnaire" title="Our Founder" />
       <Visionnaire /> */}
+     
       
-      <Title subTitle="Our Programs" title="What We Offer" />
+        <Title subTitle="Upcoming Events" title="Mark Your Calendar" />
+      <Event/>
       <div className="container">
+         
+      <Title subTitle="Our Programs" title="What We Offer" />
         <Programs />
         
-        <Title subTitle="Vision, Mission, Goals, Core Values" title="Statement" />
-        <Mission />
+        {/* <Title subTitle="Vision, Mission, Goals, Core Values" title="Statement" />
+        <Mission /> */}
         
         <Title subTitle="Purpose Academy FAQ'S" title="Frequently Asked Questions" />
         <Faqs />
         
+      </div>
+      <Title subTitle="Stay Connected" title="Follow Us" />
+        <Follow/>
+        
         <Title subTitle="Contact Us" title="Get in Touch" />
         <Contact />
-      </div>
     </>
   );
 };
