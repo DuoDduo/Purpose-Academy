@@ -15,6 +15,8 @@ import bgHome from '../../assets/academy-1.jpg'; // adjust the path and filename
 import PurposeTable from '../../components/PurposeTable/PurposeTable';
 import Follow from '../../components/Follow/Follow';
 import Event from '../../components/Event/Event';
+import JuniorTestimonials from '../../components/Testimonials/JuniorTestimonials';
+import Testimonials from '../../components/Testimonials/Testimonials';
 
 const HomePage = () => {
   return (
@@ -51,6 +53,12 @@ const HomePage = () => {
         
         {/* <Title subTitle="Vision, Mission, Goals, Core Values" title="Statement" />
         <Mission /> */}
+
+        <Title subTitle="Testimonials" title="Junior Academy" />
+          <JuniorTestimonials/>
+          
+        <Title subTitle="Testimonials" title="Stories of Transformation" />
+        <Testimonials />
         
         <Title subTitle="Purpose Academy FAQ'S" title="Frequently Asked Questions" />
         <Faqs />

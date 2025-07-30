@@ -44,13 +44,13 @@ const Academy = () => {
       
       <AcademyProgram/>
 
-        {/* <Title subTitle="Vision, Mission, Goals & Core Values" title="Our Foundation" />
-        <Mission /> */}
+        <Title subTitle="Vision, Mission, Goals & Core Values" title="Our Foundation" />
+        <Mission />
         {/* <Creative/> */}
         <Title subTitle="Testimonials" title="Junior Academy" />
           <JuniorTestimonials/>
-        <Title subTitle="Cohort Gallery" title="How Far We've Come" />
-        <Cohorts />
+        {/* <Title subTitle="Cohort Gallery" title="How Far We've Come" />
+        <Cohorts /> */}
 
         {/* <Title subTitle="Mentorship Experience" title="Transformative Coaching Sessions" />
         <About /> */}

@@ -3,9 +3,18 @@ import './Event.css';
 import { motion } from 'framer-motion';
 import bg1 from '../../assets/bg-1.jpg';
 import hangout from '../../assets/hangout.jpg';
+import jacademy from '../../assets/jacademy.png';
 import ca from '../../assets/ca.jpg';  // Fallback image if needed
 
 const events = [
+   {
+    id: 4,
+    title: '2025 Junior Academy',
+    description: 'Enrollment for Junior Academy Cohort 2 is ongoing! Secure your spot before now ',
+    date: 'Registration closes | 6th August, 2025',
+    registerLink: 'https://forms.gle/N3ZHxRFGRudVWyp38',
+    image: jacademy,
+  },
   {
     id: 1,
     title: '2025 December Retreat',
@@ -30,14 +39,14 @@ const events = [
     registerLink: '#',
     image: ca,
   },
-  {
-    id: 4,
-    title: 'August Virtual Healing and Prophetic Session',
-    description: 'A Weekly session to receive healings and impartations for destiny activation.',
-    date: 'Wednesday | 6th August 2025',
-    registerLink: 'https://www.youtube.com/@Pastorflo/streams',
-    image: bg1,
-  },
+  // {
+  //   id: 4,
+  //   title: 'August Virtual Healing and Prophetic Session',
+  //   description: 'A Weekly session to receive healings and impartations for destiny activation.',
+  //   date: 'Wednesday | 6th August 2025',
+  //   registerLink: 'https://www.youtube.com/@Pastorflo/streams',
+  //   image: bg1,
+  // },
 ];
 
 const Event = () => {
