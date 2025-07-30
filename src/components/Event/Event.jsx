@@ -10,7 +10,7 @@ const events = [
    {
     id: 4,
     title: '2025 Junior Academy',
-    description: 'Enrollment for Junior Academy Cohort 2 is ongoing! Secure your spot before now ',
+    description: 'Enrollment for Junior Academy Cohort 2 is ongoing! Secure your spot before registration closes',
     date: 'Registration closes | 6th August, 2025',
     registerLink: 'https://forms.gle/N3ZHxRFGRudVWyp38',
     image: jacademy,
