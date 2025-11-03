@@ -1,0 +1,191 @@
+/* Background Overlay */
+.retreat-wrapper {
+  width: 100%;
+  padding: 60px 16px;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url("../../assets/bg-1.jpg") no-repeat center/cover;
+  display: flex;
+  justify-content: center;
+}
+
+/* Container Card */
+.retreat-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  padding: clamp(24px, 5vw, 48px);
+  max-width: 1100px;
+  width: 100%;
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeUp 1s ease-out forwards;
+}
+
+/* Inner Layout */
+.retreat-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+@media (min-width: 768px) {
+  .retreat-inner {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+/* Image Styling */
+.retreat-image {
+  flex: 1;
+  opacity: 0;
+  transform: translateX(-30px);
+  animation: slideInLeft 1s ease-out 0.3s forwards;
+}
+
+.retreat-image img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* Text Block */
+.retreat-text {
+  flex: 1;
+  color: #222;
+  opacity: 0;
+  transform: translateX(30px);
+  animation: slideInRight 1s ease-out 0.6s forwards;
+}
+
+.retreat-text h3 {
+  font-size: 1.8rem;
+  color: #ff3c3c;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.retreat-text .highlight {
+  font-size: 1.1rem;
+  color: #111;
+  margin-bottom: 18px;
+  font-weight: 500;
+  background: rgba(255, 0, 0, 0.08);
+  padding: 6px 10px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.retreat-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 14px;
+}
+
+/* Features List */
+.retreat-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 24px;
+}
+
+.retreat-list li {
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 12px;
+}
+
+.retreat-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #ff3c3c;
+  font-weight: bold;
+}
+
+/* Enrollment Box */
+.enrollment-box {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.date,
+.note {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.note {
+  color: #ff3c3c;
+  background: rgba(255, 0, 0, 0.08);
+  padding: 8px 12px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+/* Countdown Timer */
+.countdown-timer {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #ff3c3c;
+}
+
+.countdown-timer span {
+  background: #fff3f3;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* CTA Button */
+.btn {
+  display: inline-block;
+  background-color: #ff3c3c;
+  color: white;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #d62828;
+  transform: translateY(-2px);
+}
+
+/* Animations */
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

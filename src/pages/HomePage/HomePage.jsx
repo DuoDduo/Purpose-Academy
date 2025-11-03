@@ -8,13 +8,14 @@ import Faqs from '../../components/FAQS/Faqs';
 import Contact from '../../components/Contact/Contact';
 import Navbar from '../../components/Navbar/Navbar';
 import Hero from '../../components/Hero/Hero';
-import MasterClass from '../../components/MasterClass/MasterClass';
+// import MasterClass from '../../components/MasterClass/MasterClass';
+import Retreat  from  "../../components/Retreat/Retreat"
 
 // Import the home page background image
 import bgHome from '../../assets/academy-1.jpg'; // adjust the path and filename as needed
 import PurposeTable from '../../components/PurposeTable/PurposeTable';
 import Follow from '../../components/Follow/Follow';
-import Event from '../../components/Event/Event';
+// import Event from '../../components/Event/Event';
 import JuniorTestimonials from '../../components/Testimonials/JuniorTestimonials';
 import Testimonials from '../../components/Testimonials/Testimonials';
 
@@ -23,29 +24,32 @@ const HomePage = () => {
     <>
       <Navbar />
       
-      <Hero
-        title="Discover Your Purpose, Fuel Your Impact."
-        subtitle={
-          <>
-            Enrollment for Junior Academy Cohort 2 is ongoing! Secure your spot before registration closes on <strong>Wednesday, 6th August, 2025</strong>.
-          </>
-        }
-        buttonText="Register Now"
-        buttonLink="https://forms.gle/N3ZHxRFGRudVWyp38"
-        backgroundImage={bgHome}
-      />
+     <Hero
+  title="Experience Divine Flow, Receive Clarity."
+  subtitle={
+    <>
+      Join us this <b>December </b>for diverse moves of God: salvation, healing, deliverance, outpouring, and revival. 
+      The Retreat holds on the <b>Third Weekend in December, 19th – 20th, 2025</b>
+    </>
+  }
+  buttonText="Register Now"
+  buttonLink="https://forms.gle/mht6nQsReSaiCW3k8"
+  backgroundImage={bgHome} // Replace 'bgHome' with the retreat image import (e.g., 'bgRetreat')
+/>
        <Title subTitle="About Us" title="School of Purpose " />
       <PurposeTable/>
-      <Title subTitle="Ongoing Registration" title="Purpose & Leadership Masterclass" />
-      <MasterClass/>
+      <Title subTitle="Ongoing Registration" title="December Retreat" />
+      <Retreat/>
+      {/* <Title subTitle="Ongoing Registration" title="Purpose & Leadership Masterclass" />
+      <MasterClass/> */}
       
      
       {/* <Title subTitle="About The Visionnaire" title="Our Founder" />
       <Visionnaire /> */}
      
       
-        <Title subTitle="Upcoming Events" title="Mark Your Calendar" />
-      <Event/>
+        {/* <Title subTitle="Upcoming Events" title="Mark Your Calendar" />
+      <Event/> */}
       <div className="container">
          
       <Title subTitle="Our Programs" title="What We Offer" />
